@@ -38,12 +38,12 @@ module.exports = {
       amd: 'presentation-storage',
       root: 'presentation-storage'
     },
-    'augmented-next': {
-      commonjs: 'Augmented',
-      commonjs2: 'Augmented',
-      amd: 'Augmented',
+    'augmentedjs-next': {
+      commonjs: 'augmentedjs-next',
+      commonjs2: 'augmentedjs-next',
+      amd: 'augmentedjs-next',
       root: 'Augmented'
-    },
+    }
   },
   stats: "errors-only",
   devtool: "source-map",
