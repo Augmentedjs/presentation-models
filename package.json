@@ -1,12 +1,12 @@
 {
   "name": "presentation-models",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "The Augmented.js Next - Presentation Dom Module.",
-  "main": "dist/presentation-dom.js",
+  "main": "dist/presentation-models.js",
   "scripts": {
     "dev": "webpack --mode development --module-bind js=babel-loader --progress",
     "build": "webpack --mode production --module-bind js=babel-loader --progress",
-    "lint": "eslint ./src/augmented-presentation.js",
+    "lint": "eslint ./src/presentation-models.js",
     "test": "mocha --require babel-core/register --require test/helper.js -c test/*Spec.js",
     "start": "node index.js",
     "docs": "rm -rf jsdoc && jsdoc ./src -r -d ./jsdoc/ -R ./README.md -t ./node_modules/foodoc/template -c ./jsdoc.conf.json -P ./package.json",
