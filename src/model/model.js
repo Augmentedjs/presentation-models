@@ -15,29 +15,43 @@ class Model extends Augmented.AbstractModel {
     super(attributes, options, args);
     this.mock = false;
     this.crossOrigin = false;
+    this._uri = null;
 
     if (options && options.url) {
-      this._url = options.url;
-    } else {
-      this._url = null;
-    };
+      console.warn("passing url is deprecated, use uri.");
+      this._uri = options.url;
+    }
+
+    if (options && options.uri) {
+      this._uri = options.uri;
+    }
   };
 
   /**
    * @property {string} url The url for the datasource (if applicable)
+   * @deprecated
    */
 
   /**
-   * @returns {string|function} url The URL or a function to retun a URL object
-   */
+    * @property {string} uri The uri for the datasource (if applicable)
+    */
+
   get url() {
-    return this._url;
+    console.warn("using url is deprecated, use uri.");
+    return this._uri;
   };
-  /**
-   * @param {string|function} url The URL or a function to retun a URL object
-   */
-  set url(url) {
-    this._url = url;
+
+  set url(uri) {
+    console.warn("using url is deprecated, use uri.");
+    this._uri = uri;
+  };
+
+  get uri() {
+    return this._uri;
+  };
+
+  set uri(uri) {
+    this._uri = uri;
   };
 
   /**
@@ -58,10 +72,10 @@ class Model extends Augmented.AbstractModel {
     if (!options) {
       options = {};
     }
-    if (this._url) {
-      options.url = this._url;
+    if (this._uri) {
+      options.uri = this._uri;
     } else {
-      console.warn("no url?! :/");
+      console.warn("no uri?! :/");
     }
 
     // TODO: pass this to the fetch

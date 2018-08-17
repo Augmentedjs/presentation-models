@@ -308,13 +308,6 @@
           "model#url",
           "url"
         ],
-        "Model.html#fetch": [
-          "fetch",
-          "function",
-          "model",
-          "model#fetch",
-          "option"
-        ],
         "Model.html#save": [
           "function",
           "model",
@@ -334,6 +327,13 @@
           "function",
           "model",
           "model#destroy",
+          "option"
+        ],
+        "Model.html#fetch": [
+          "fetch",
+          "function",
+          "model",
+          "model#fetch",
           "option"
         ],
         "Pagination.PaginationFactory.html": [
@@ -2371,10 +2371,6 @@
                       "ref": "Model.html",
                       "tf": 1908.3333333333333
                     },
-                    "Model.html#fetch": {
-                      "ref": "Model.html#fetch",
-                      "tf": 25
-                    },
                     "Model.html#save": {
                       "ref": "Model.html#save",
                       "tf": 25
@@ -2385,6 +2381,10 @@
                     },
                     "Model.html#destroy": {
                       "ref": "Model.html#destroy",
+                      "tf": 25
+                    },
+                    "Model.html#fetch": {
+                      "ref": "Model.html#fetch",
                       "tf": 25
                     }
                   },
@@ -2410,26 +2410,6 @@
                             "Model.html#update": {
                               "ref": "Model.html#update",
                               "tf": 1150
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "f": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          "c": {
-                            "docs": {},
-                            "h": {
-                              "docs": {
-                                "Model.html#fetch": {
-                                  "ref": "Model.html#fetch",
-                                  "tf": 1150
-                                }
-                              }
                             }
                           }
                         }
@@ -2468,6 +2448,26 @@
                                       "tf": 1150
                                     }
                                   }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "f": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "c": {
+                            "docs": {},
+                            "h": {
+                              "docs": {
+                                "Model.html#fetch": {
+                                  "ref": "Model.html#fetch",
+                                  "tf": 1150
                                 }
                               }
                             }
@@ -2783,10 +2783,6 @@
                             "ref": "PaginatedCollection.html#destroy",
                             "tf": 110
                           },
-                          "Model.html#fetch": {
-                            "ref": "Model.html#fetch",
-                            "tf": 110
-                          },
                           "Model.html#save": {
                             "ref": "Model.html#save",
                             "tf": 110
@@ -2797,6 +2793,10 @@
                           },
                           "Model.html#destroy": {
                             "ref": "Model.html#destroy",
+                            "tf": 110
+                          },
+                          "Model.html#fetch": {
+                            "ref": "Model.html#fetch",
                             "tf": 110
                           }
                         }
@@ -2963,10 +2963,6 @@
                         "ref": "PaginatedCollection.html#destroy",
                         "tf": 50
                       },
-                      "Model.html#fetch": {
-                        "ref": "Model.html#fetch",
-                        "tf": 50
-                      },
                       "Model.html#save": {
                         "ref": "Model.html#save",
                         "tf": 50
@@ -2977,6 +2973,10 @@
                       },
                       "Model.html#destroy": {
                         "ref": "Model.html#destroy",
+                        "tf": 50
+                      },
+                      "Model.html#fetch": {
+                        "ref": "Model.html#fetch",
                         "tf": 50
                       }
                     }
@@ -3061,7 +3061,7 @@
           }
         }
       },
-      "length": 234
+      "length": 228
     },
     "corpusTokens": [
       "api",
@@ -3538,16 +3538,6 @@
       "summary": "",
       "description": ""
     },
-    "Model.html#fetch": {
-      "id": "Model.html#fetch",
-      "kind": "function",
-      "title": "fetch( options )",
-      "longname": "Model#fetch",
-      "name": "fetch",
-      "tags": "Model#fetch fetch",
-      "summary": "",
-      "description": "Fetch the model"
-    },
     "Model.html#save": {
       "id": "Model.html#save",
       "kind": "function",
@@ -3577,6 +3567,16 @@
       "tags": "Model#destroy destroy",
       "summary": "",
       "description": "Destroy the model"
+    },
+    "Model.html#fetch": {
+      "id": "Model.html#fetch",
+      "kind": "function",
+      "title": "fetch( options )",
+      "longname": "Model#fetch",
+      "name": "fetch",
+      "tags": "Model#fetch fetch",
+      "summary": "",
+      "description": "Fetch the model"
     },
     "Pagination.PaginationFactory.html": {
       "id": "Pagination.PaginationFactory.html",
