@@ -1,11 +1,11 @@
-import Augmented from "augmentedjs-next";
+import { AbstractCollection } from "next-core-model";
 import { sync } from "presentation-request";
 
 /**
  * Collection Class
  * @extends Augmented.AbstractCollection
  */
-class Collection extends Augmented.AbstractCollection {
+class Collection extends AbstractCollection {
   constructor(models, options) {
     super(models, options);
 

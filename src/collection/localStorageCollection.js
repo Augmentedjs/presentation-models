@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { AbstractCollection } from "next-core-model";
 import { LocalStorageFactory } from "presentation-storage";
 
 const DEFAULT_NAMESPACE = "augmented.localstorage.collection";
@@ -8,7 +8,7 @@ const DEFAULT_KEY = `${DEFAULT_NAMESPACE}.key`;
  * A local storage-based Collection
  * @extends Augmented.AbstractCollection
  */
-class LocalStorageCollection extends Augmented.AbstractCollection {
+class LocalStorageCollection extends AbstractCollection {
   constructor(models, options) {
     super(models, options);
     this._key = DEFAULT_KEY;

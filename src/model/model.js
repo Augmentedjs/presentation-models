@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { AbstractModel } from "next-core-model";
 import { sync } from "presentation-request";
 
 /**
@@ -10,7 +10,7 @@ import { sync } from "presentation-request";
  * </ul>
  * @extends Augmented.AbstractModel
  */
-class Model extends Augmented.AbstractModel {
+class Model extends AbstractModel {
   constructor(attributes, options, ...args) {
     super(attributes, options, args);
     this.mock = false;
