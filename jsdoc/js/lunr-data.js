@@ -117,6 +117,27 @@ window.lunrData = {
           "localstoragecollect",
           "storag"
         ],
+        "LocalStorageCollection.html#key": [
+          "base",
+          "collect",
+          "key",
+          "localstoragecollection#key",
+          "member",
+          "name",
+          "rest",
+          "simular",
+          "url"
+        ],
+        "LocalStorageCollection.html#persist": [
+          "localstoragecollection#persist",
+          "member",
+          "persist"
+        ],
+        "LocalStorageCollection.html#namespace": [
+          "localstoragecollection#namespac",
+          "member",
+          "namespac"
+        ],
         "LocalStorageCollection.html#initialize": [
           "function",
           "initi",
@@ -308,6 +329,13 @@ window.lunrData = {
           "model#url",
           "url"
         ],
+        "Model.html#fetch": [
+          "fetch",
+          "function",
+          "model",
+          "model#fetch",
+          "option"
+        ],
         "Model.html#save": [
           "function",
           "model",
@@ -329,13 +357,6 @@ window.lunrData = {
           "model#destroy",
           "option"
         ],
-        "Model.html#fetch": [
-          "fetch",
-          "function",
-          "model",
-          "model#fetch",
-          "option"
-        ],
         "Pagination.PaginationFactory.html": [
           "api",
           "class",
@@ -348,7 +369,7 @@ window.lunrData = {
           "type"
         ]
       },
-      "length": 40
+      "length": 43
     },
     "tokenStore": {
       "root": {
@@ -617,6 +638,37 @@ window.lunrData = {
               }
             }
           },
+          "a": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "LocalStorageCollection.html#key": {
+                    "ref": "LocalStorageCollection.html#key",
+                    "tf": 6.25
+                  }
+                },
+                "s": {
+                  "docs": {},
+                  "p": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "c": {
+                        "docs": {
+                          "LocalStorageCollection.html#namespace": {
+                            "ref": "LocalStorageCollection.html#namespace",
+                            "tf": 800
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "u": {
             "docs": {},
             "m": {
@@ -689,6 +741,29 @@ window.lunrData = {
                               }
                             }
                           }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "LocalStorageCollection.html#persist": {
+                          "ref": "LocalStorageCollection.html#persist",
+                          "tf": 800
                         }
                       }
                     }
@@ -1249,6 +1324,10 @@ window.lunrData = {
                     "ref": "Collection.html#sync",
                     "tf": 8.333333333333332
                   },
+                  "LocalStorageCollection.html#key": {
+                    "ref": "LocalStorageCollection.html#key",
+                    "tf": 6.25
+                  },
                   "PaginatedCollection.html#sync": {
                     "ref": "PaginatedCollection.html#sync",
                     "tf": 8.333333333333332
@@ -1340,6 +1419,23 @@ window.lunrData = {
                       "index.html": {
                         "ref": "index.html",
                         "tf": 14
+                      }
+                    }
+                  }
+                }
+              },
+              "u": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "LocalStorageCollection.html#key": {
+                          "ref": "LocalStorageCollection.html#key",
+                          "tf": 6.25
+                        }
                       }
                     }
                   }
@@ -1732,6 +1828,10 @@ window.lunrData = {
                           "ref": "LocalStorageCollection.html",
                           "tf": 12.5
                         },
+                        "LocalStorageCollection.html#key": {
+                          "ref": "LocalStorageCollection.html#key",
+                          "tf": 6.25
+                        },
                         "LocalStorageCollection.html#fetch": {
                           "ref": "LocalStorageCollection.html#fetch",
                           "tf": 25
@@ -2116,6 +2216,75 @@ window.lunrData = {
                                                     "docs": {},
                                                     "#": {
                                                       "docs": {},
+                                                      "k": {
+                                                        "docs": {},
+                                                        "e": {
+                                                          "docs": {},
+                                                          "y": {
+                                                            "docs": {
+                                                              "LocalStorageCollection.html#key": {
+                                                                "ref": "LocalStorageCollection.html#key",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "p": {
+                                                        "docs": {},
+                                                        "e": {
+                                                          "docs": {},
+                                                          "r": {
+                                                            "docs": {},
+                                                            "s": {
+                                                              "docs": {},
+                                                              "i": {
+                                                                "docs": {},
+                                                                "s": {
+                                                                  "docs": {},
+                                                                  "t": {
+                                                                    "docs": {
+                                                                      "LocalStorageCollection.html#persist": {
+                                                                        "ref": "LocalStorageCollection.html#persist",
+                                                                        "tf": 1150
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "n": {
+                                                        "docs": {},
+                                                        "a": {
+                                                          "docs": {},
+                                                          "m": {
+                                                            "docs": {},
+                                                            "e": {
+                                                              "docs": {},
+                                                              "s": {
+                                                                "docs": {},
+                                                                "p": {
+                                                                  "docs": {},
+                                                                  "a": {
+                                                                    "docs": {},
+                                                                    "c": {
+                                                                      "docs": {
+                                                                        "LocalStorageCollection.html#namespace": {
+                                                                          "ref": "LocalStorageCollection.html#namespace",
+                                                                          "tf": 1150
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
                                                       "i": {
                                                         "docs": {},
                                                         "n": {
@@ -2296,6 +2465,18 @@ window.lunrData = {
                         "ref": "Collection.html#url",
                         "tf": 110
                       },
+                      "LocalStorageCollection.html#key": {
+                        "ref": "LocalStorageCollection.html#key",
+                        "tf": 110
+                      },
+                      "LocalStorageCollection.html#persist": {
+                        "ref": "LocalStorageCollection.html#persist",
+                        "tf": 110
+                      },
+                      "LocalStorageCollection.html#namespace": {
+                        "ref": "LocalStorageCollection.html#namespace",
+                        "tf": 110
+                      },
                       "PaginatedCollection.html#url": {
                         "ref": "PaginatedCollection.html#url",
                         "tf": 110
@@ -2371,6 +2552,10 @@ window.lunrData = {
                       "ref": "Model.html",
                       "tf": 1908.3333333333333
                     },
+                    "Model.html#fetch": {
+                      "ref": "Model.html#fetch",
+                      "tf": 25
+                    },
                     "Model.html#save": {
                       "ref": "Model.html#save",
                       "tf": 25
@@ -2381,10 +2566,6 @@ window.lunrData = {
                     },
                     "Model.html#destroy": {
                       "ref": "Model.html#destroy",
-                      "tf": 25
-                    },
-                    "Model.html#fetch": {
-                      "ref": "Model.html#fetch",
                       "tf": 25
                     }
                   },
@@ -2410,6 +2591,26 @@ window.lunrData = {
                             "Model.html#update": {
                               "ref": "Model.html#update",
                               "tf": 1150
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "f": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "c": {
+                            "docs": {},
+                            "h": {
+                              "docs": {
+                                "Model.html#fetch": {
+                                  "ref": "Model.html#fetch",
+                                  "tf": 1150
+                                }
+                              }
                             }
                           }
                         }
@@ -2448,26 +2649,6 @@ window.lunrData = {
                                       "tf": 1150
                                     }
                                   }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "f": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          "c": {
-                            "docs": {},
-                            "h": {
-                              "docs": {
-                                "Model.html#fetch": {
-                                  "ref": "Model.html#fetch",
-                                  "tf": 1150
                                 }
                               }
                             }
@@ -2513,6 +2694,10 @@ window.lunrData = {
                 "Collection.html#url": {
                   "ref": "Collection.html#url",
                   "tf": 750
+                },
+                "LocalStorageCollection.html#key": {
+                  "ref": "LocalStorageCollection.html#key",
+                  "tf": 6.25
                 },
                 "PaginatedCollection.html#url": {
                   "ref": "PaginatedCollection.html#url",
@@ -2586,6 +2771,10 @@ window.lunrData = {
                 "docs": {
                   "LocalStorageCollection.html": {
                     "ref": "LocalStorageCollection.html",
+                    "tf": 12.5
+                  },
+                  "LocalStorageCollection.html#key": {
+                    "ref": "LocalStorageCollection.html#key",
                     "tf": 12.5
                   }
                 }
@@ -2783,6 +2972,10 @@ window.lunrData = {
                             "ref": "PaginatedCollection.html#destroy",
                             "tf": 110
                           },
+                          "Model.html#fetch": {
+                            "ref": "Model.html#fetch",
+                            "tf": 110
+                          },
                           "Model.html#save": {
                             "ref": "Model.html#save",
                             "tf": 110
@@ -2793,10 +2986,6 @@ window.lunrData = {
                           },
                           "Model.html#destroy": {
                             "ref": "Model.html#destroy",
-                            "tf": 110
-                          },
-                          "Model.html#fetch": {
-                            "ref": "Model.html#fetch",
                             "tf": 110
                           }
                         }
@@ -2963,6 +3152,10 @@ window.lunrData = {
                         "ref": "PaginatedCollection.html#destroy",
                         "tf": 50
                       },
+                      "Model.html#fetch": {
+                        "ref": "Model.html#fetch",
+                        "tf": 50
+                      },
                       "Model.html#save": {
                         "ref": "Model.html#save",
                         "tf": 50
@@ -2974,13 +3167,23 @@ window.lunrData = {
                       "Model.html#destroy": {
                         "ref": "Model.html#destroy",
                         "tf": 50
-                      },
-                      "Model.html#fetch": {
-                        "ref": "Model.html#fetch",
-                        "tf": 50
                       }
                     }
                   }
+                }
+              }
+            }
+          }
+        },
+        "k": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "y": {
+              "docs": {
+                "LocalStorageCollection.html#key": {
+                  "ref": "LocalStorageCollection.html#key",
+                  "tf": 756.25
                 }
               }
             }
@@ -3061,7 +3264,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 228
+      "length": 243
     },
     "corpusTokens": [
       "api",
@@ -3100,6 +3303,7 @@ window.lunrData = {
       "initi",
       "inititl",
       "item",
+      "key",
       "last",
       "lastpag",
       "list",
@@ -3110,6 +3314,9 @@ window.lunrData = {
       "localstoragecollection#fetch",
       "localstoragecollection#init",
       "localstoragecollection#initi",
+      "localstoragecollection#key",
+      "localstoragecollection#namespac",
+      "localstoragecollection#persist",
       "localstoragecollection#sav",
       "localstoragecollection#sync",
       "localstoragecollection#upd",
@@ -3123,6 +3330,8 @@ window.lunrData = {
       "model#upd",
       "model#url",
       "move",
+      "name",
+      "namespac",
       "need",
       "next",
       "nextpag",
@@ -3147,6 +3356,7 @@ window.lunrData = {
       "paginatedcollection#url",
       "pagination.paginationfactori",
       "paginationfactori",
+      "persist",
       "present",
       "previou",
       "previouspag",
@@ -3164,6 +3374,7 @@ window.lunrData = {
       "setpages",
       "side",
       "simpli",
+      "simular",
       "size",
       "storag",
       "support",
@@ -3295,6 +3506,36 @@ window.lunrData = {
       "summary": "",
       "description": "A local storage-based Collection",
       "body": ""
+    },
+    "LocalStorageCollection.html#key": {
+      "id": "LocalStorageCollection.html#key",
+      "kind": "member",
+      "title": "key",
+      "longname": "LocalStorageCollection#key",
+      "name": "key",
+      "tags": "LocalStorageCollection#key key",
+      "summary": "",
+      "description": "Base key name for the collection (simular to url for rest-based)"
+    },
+    "LocalStorageCollection.html#persist": {
+      "id": "LocalStorageCollection.html#persist",
+      "kind": "member",
+      "title": "persist",
+      "longname": "LocalStorageCollection#persist",
+      "name": "persist",
+      "tags": "LocalStorageCollection#persist persist",
+      "summary": "",
+      "description": "is Persistant or not"
+    },
+    "LocalStorageCollection.html#namespace": {
+      "id": "LocalStorageCollection.html#namespace",
+      "kind": "member",
+      "title": "namespace",
+      "longname": "LocalStorageCollection#namespace",
+      "name": "namespace",
+      "tags": "LocalStorageCollection#namespace namespace",
+      "summary": "",
+      "description": "The namespace"
     },
     "LocalStorageCollection.html#initialize": {
       "id": "LocalStorageCollection.html#initialize",
@@ -3538,6 +3779,16 @@ window.lunrData = {
       "summary": "",
       "description": ""
     },
+    "Model.html#fetch": {
+      "id": "Model.html#fetch",
+      "kind": "function",
+      "title": "fetch( options )",
+      "longname": "Model#fetch",
+      "name": "fetch",
+      "tags": "Model#fetch fetch",
+      "summary": "",
+      "description": "Fetch the model"
+    },
     "Model.html#save": {
       "id": "Model.html#save",
       "kind": "function",
@@ -3567,16 +3818,6 @@ window.lunrData = {
       "tags": "Model#destroy destroy",
       "summary": "",
       "description": "Destroy the model"
-    },
-    "Model.html#fetch": {
-      "id": "Model.html#fetch",
-      "kind": "function",
-      "title": "fetch( options )",
-      "longname": "Model#fetch",
-      "name": "fetch",
-      "tags": "Model#fetch fetch",
-      "summary": "",
-      "description": "Fetch the model"
     },
     "Pagination.PaginationFactory.html": {
       "id": "Pagination.PaginationFactory.html",

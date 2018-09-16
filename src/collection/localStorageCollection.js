@@ -10,29 +10,56 @@ const DEFAULT_KEY = `${DEFAULT_NAMESPACE}.key`;
  */
 class LocalStorageCollection extends AbstractCollection {
   constructor(models, options) {
-    super(models, options);
-    this._key = DEFAULT_KEY;
-    this._persist = false;
-    this._storage = null;
+    if (!options) {
+      options = {};
+    }
 
-    if (options && options.persist) {
+    super(models, options);
+
+    if (options.persist) {
       this._persist = options.persist;
+    } else {
+      this._persist = false;
     }
-    if (options && options.key) {
+
+    if (options.key) {
       this._key = options.key;
+    } else {
+      this._key = DEFAULT_KEY;
     }
-    this._storage = LocalStorageFactory.getStorage(this._persist, DEFAULT_NAMESPACE);
+
+    if (options.namespace) {
+      this._namespace = options.namespace;
+    } else {
+      this._namespace = DEFAULT_NAMESPACE;
+    }
+
+    this._storage = LocalStorageFactory.getStorage(this._persist, this._namespace);
   };
 
   /**
    * Base key name for the collection (simular to url for rest-based)
    * @property {string} key The key
    */
+   get key() {
+     return this._key;
+   };
 
   /**
    * is Persistant or not
-   * @property {boolean} isPersisted Persistant property
+   * @property {boolean} persist Persistant property
    */
+   get persist() {
+     return this._persist;
+   };
+
+   /**
+    * The namespace
+    * @property {boolean} namespace
+    */
+   get namespace() {
+     return this._namespace;
+   };
 
   /**
    * Storage for the collection
