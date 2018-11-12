@@ -58,6 +58,128 @@
           "list",
           "list:class"
         ],
+        "PaginatedCollection.html": [
+          "class",
+          "client",
+          "collect",
+          "handl",
+          "pagin",
+          "paginatedcollect",
+          "server",
+          "side"
+        ],
+        "PaginatedCollection.html#url": [
+          "member",
+          "paginatedcollection#url",
+          "url"
+        ],
+        "PaginatedCollection.html#sync": [
+          "bound",
+          "call",
+          "collect",
+          "data",
+          "function",
+          "lt;async&gt",
+          "method",
+          "model",
+          "option",
+          "paginatedcollection#sync",
+          "rest",
+          "sync"
+        ],
+        "PaginatedCollection.html#setPageSize": [
+          "function",
+          "item",
+          "number",
+          "page",
+          "paginatedcollection#setpages",
+          "set",
+          "setpages",
+          "size"
+        ],
+        "PaginatedCollection.html#setCurrentPage": [
+          "current",
+          "function",
+          "page",
+          "paginatedcollection#setcurrentpag",
+          "set",
+          "setcurrentpag"
+        ],
+        "PaginatedCollection.html#fetch": [
+          "backbone.collection.fetch",
+          "collection.fetch",
+          "fetch",
+          "function",
+          "method",
+          "paginatedcollection#fetch",
+          "rewritten"
+        ],
+        "PaginatedCollection.html#save": [
+          "collect",
+          "function",
+          "option",
+          "paginatedcollection#sav",
+          "save"
+        ],
+        "PaginatedCollection.html#nextPage": [
+          "function",
+          "move",
+          "next",
+          "nextpag",
+          "page",
+          "paginatedcollection#nextpag"
+        ],
+        "PaginatedCollection.html#update": [
+          "collect",
+          "function",
+          "option",
+          "paginatedcollection#upd",
+          "updat"
+        ],
+        "PaginatedCollection.html#previousPage": [
+          "function",
+          "move",
+          "page",
+          "paginatedcollection#previouspag",
+          "previou",
+          "previouspag"
+        ],
+        "PaginatedCollection.html#destroy": [
+          "collect",
+          "destroy",
+          "function",
+          "option",
+          "paginatedcollection#destroy"
+        ],
+        "PaginatedCollection.html#goToPage": [
+          "function",
+          "goe",
+          "gotopag",
+          "page",
+          "paginatedcollection#gotopag"
+        ],
+        "PaginatedCollection.html#firstPage": [
+          "first",
+          "firstpag",
+          "function",
+          "move",
+          "page",
+          "paginatedcollection#firstpag"
+        ],
+        "PaginatedCollection.html#lastPage": [
+          "function",
+          "last",
+          "lastpag",
+          "move",
+          "page",
+          "paginatedcollection#lastpag"
+        ],
+        "PaginatedCollection.html#refresh": [
+          "collect",
+          "function",
+          "paginatedcollection#refresh",
+          "refresh"
+        ],
         "Collection.html": [
           "class",
           "collect"
@@ -108,6 +230,17 @@
           "destroy",
           "function",
           "option"
+        ],
+        "Pagination.PaginationFactory.html": [
+          "api",
+          "class",
+          "collect",
+          "factori",
+          "pagin",
+          "pagination.paginationfactori",
+          "paginationfactori",
+          "return",
+          "type"
         ],
         "LocalStorageCollection.html": [
           "base",
@@ -193,128 +326,6 @@
           "method",
           "sync"
         ],
-        "PaginatedCollection.html": [
-          "class",
-          "client",
-          "collect",
-          "handl",
-          "pagin",
-          "paginatedcollect",
-          "server",
-          "side"
-        ],
-        "PaginatedCollection.html#url": [
-          "member",
-          "paginatedcollection#url",
-          "url"
-        ],
-        "PaginatedCollection.html#setPageSize": [
-          "function",
-          "item",
-          "number",
-          "page",
-          "paginatedcollection#setpages",
-          "set",
-          "setpages",
-          "size"
-        ],
-        "PaginatedCollection.html#setCurrentPage": [
-          "current",
-          "function",
-          "page",
-          "paginatedcollection#setcurrentpag",
-          "set",
-          "setcurrentpag"
-        ],
-        "PaginatedCollection.html#fetch": [
-          "backbone.collection.fetch",
-          "collection.fetch",
-          "fetch",
-          "function",
-          "method",
-          "paginatedcollection#fetch",
-          "rewritten"
-        ],
-        "PaginatedCollection.html#nextPage": [
-          "function",
-          "move",
-          "next",
-          "nextpag",
-          "page",
-          "paginatedcollection#nextpag"
-        ],
-        "PaginatedCollection.html#previousPage": [
-          "function",
-          "move",
-          "page",
-          "paginatedcollection#previouspag",
-          "previou",
-          "previouspag"
-        ],
-        "PaginatedCollection.html#goToPage": [
-          "function",
-          "goe",
-          "gotopag",
-          "page",
-          "paginatedcollection#gotopag"
-        ],
-        "PaginatedCollection.html#firstPage": [
-          "first",
-          "firstpag",
-          "function",
-          "move",
-          "page",
-          "paginatedcollection#firstpag"
-        ],
-        "PaginatedCollection.html#lastPage": [
-          "function",
-          "last",
-          "lastpag",
-          "move",
-          "page",
-          "paginatedcollection#lastpag"
-        ],
-        "PaginatedCollection.html#refresh": [
-          "collect",
-          "function",
-          "paginatedcollection#refresh",
-          "refresh"
-        ],
-        "PaginatedCollection.html#sync": [
-          "bound",
-          "call",
-          "collect",
-          "data",
-          "function",
-          "lt;async&gt",
-          "method",
-          "model",
-          "option",
-          "paginatedcollection#sync",
-          "rest",
-          "sync"
-        ],
-        "PaginatedCollection.html#save": [
-          "collect",
-          "function",
-          "option",
-          "paginatedcollection#sav",
-          "save"
-        ],
-        "PaginatedCollection.html#update": [
-          "collect",
-          "function",
-          "option",
-          "paginatedcollection#upd",
-          "updat"
-        ],
-        "PaginatedCollection.html#destroy": [
-          "collect",
-          "destroy",
-          "function",
-          "option",
-          "paginatedcollection#destroy"
-        ],
         "Model.html": [
           "class",
           "model",
@@ -356,17 +367,6 @@
           "model",
           "model#destroy",
           "option"
-        ],
-        "Pagination.PaginationFactory.html": [
-          "api",
-          "class",
-          "collect",
-          "factori",
-          "pagin",
-          "pagination.paginationfactori",
-          "paginationfactori",
-          "return",
-          "type"
         ]
       },
       "length": 43
@@ -457,16 +457,16 @@
                     "docs": {},
                     "y": {
                       "docs": {
+                        "PaginatedCollection.html#destroy": {
+                          "ref": "PaginatedCollection.html#destroy",
+                          "tf": 725
+                        },
                         "Collection.html#destroy": {
                           "ref": "Collection.html#destroy",
                           "tf": 725
                         },
                         "LocalStorageCollection.html#destroy": {
                           "ref": "LocalStorageCollection.html#destroy",
-                          "tf": 725
-                        },
-                        "PaginatedCollection.html#destroy": {
-                          "ref": "PaginatedCollection.html#destroy",
                           "tf": 725
                         },
                         "Model.html#destroy": {
@@ -516,12 +516,12 @@
               "docs": {},
               "a": {
                 "docs": {
-                  "Collection.html#sync": {
-                    "ref": "Collection.html#sync",
-                    "tf": 8.333333333333332
-                  },
                   "PaginatedCollection.html#sync": {
                     "ref": "PaginatedCollection.html#sync",
+                    "tf": 8.333333333333332
+                  },
+                  "Collection.html#sync": {
+                    "ref": "Collection.html#sync",
                     "tf": 8.333333333333332
                   }
                 }
@@ -638,6 +638,26 @@
               }
             }
           },
+          "u": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "PaginatedCollection.html#setPageSize": {
+                        "ref": "PaginatedCollection.html#setPageSize",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "a": {
             "docs": {},
             "m": {
@@ -662,26 +682,6 @@
                             "tf": 800
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "m": {
-              "docs": {},
-              "b": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "PaginatedCollection.html#setPageSize": {
-                        "ref": "PaginatedCollection.html#setPageSize",
-                        "tf": 12.5
                       }
                     }
                   }
@@ -741,29 +741,6 @@
                               }
                             }
                           }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "LocalStorageCollection.html#persist": {
-                          "ref": "LocalStorageCollection.html#persist",
-                          "tf": 800
                         }
                       }
                     }
@@ -851,6 +828,20 @@
                                                 },
                                                 "s": {
                                                   "docs": {},
+                                                  "y": {
+                                                    "docs": {},
+                                                    "n": {
+                                                      "docs": {},
+                                                      "c": {
+                                                        "docs": {
+                                                          "PaginatedCollection.html#sync": {
+                                                            "ref": "PaginatedCollection.html#sync",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
                                                   "e": {
                                                     "docs": {},
                                                     "t": {
@@ -907,20 +898,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "y": {
-                                                    "docs": {},
-                                                    "n": {
-                                                      "docs": {},
-                                                      "c": {
-                                                        "docs": {
-                                                          "PaginatedCollection.html#sync": {
-                                                            "ref": "PaginatedCollection.html#sync",
-                                                            "tf": 1150
                                                           }
                                                         }
                                                       }
@@ -1048,6 +1025,32 @@
                                                     }
                                                   }
                                                 },
+                                                "d": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "o": {
+                                                            "docs": {},
+                                                            "y": {
+                                                              "docs": {
+                                                                "PaginatedCollection.html#destroy": {
+                                                                  "ref": "PaginatedCollection.html#destroy",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
                                                 "g": {
                                                   "docs": {},
                                                   "o": {
@@ -1116,32 +1119,6 @@
                                                               "docs": {
                                                                 "PaginatedCollection.html#refresh": {
                                                                   "ref": "PaginatedCollection.html#refresh",
-                                                                  "tf": 1150
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "d": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "s": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "o": {
-                                                            "docs": {},
-                                                            "y": {
-                                                              "docs": {
-                                                                "PaginatedCollection.html#destroy": {
-                                                                  "ref": "PaginatedCollection.html#destroy",
                                                                   "tf": 1150
                                                                 }
                                                               }
@@ -1296,6 +1273,29 @@
                 }
               }
             }
+          },
+          "e": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "LocalStorageCollection.html#persist": {
+                          "ref": "LocalStorageCollection.html#persist",
+                          "tf": 800
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "r": {
@@ -1320,6 +1320,10 @@
               "docs": {},
               "t": {
                 "docs": {
+                  "PaginatedCollection.html#sync": {
+                    "ref": "PaginatedCollection.html#sync",
+                    "tf": 8.333333333333332
+                  },
                   "Collection.html#sync": {
                     "ref": "Collection.html#sync",
                     "tf": 8.333333333333332
@@ -1327,10 +1331,6 @@
                   "LocalStorageCollection.html#key": {
                     "ref": "LocalStorageCollection.html#key",
                     "tf": 6.25
-                  },
-                  "PaginatedCollection.html#sync": {
-                    "ref": "PaginatedCollection.html#sync",
-                    "tf": 8.333333333333332
                   },
                   "Model.html": {
                     "ref": "Model.html",
@@ -1465,74 +1465,6 @@
               }
             }
           },
-          "y": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "c": {
-                "docs": {
-                  "Collection.html#sync": {
-                    "ref": "Collection.html#sync",
-                    "tf": 678.3333333333334
-                  },
-                  "LocalStorageCollection.html#sync": {
-                    "ref": "LocalStorageCollection.html#sync",
-                    "tf": 766.6666666666666
-                  },
-                  "PaginatedCollection.html#sync": {
-                    "ref": "PaginatedCollection.html#sync",
-                    "tf": 678.3333333333334
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "v": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "Collection.html#save": {
-                    "ref": "Collection.html#save",
-                    "tf": 725
-                  },
-                  "LocalStorageCollection.html#save": {
-                    "ref": "LocalStorageCollection.html#save",
-                    "tf": 725
-                  },
-                  "PaginatedCollection.html#save": {
-                    "ref": "PaginatedCollection.html#save",
-                    "tf": 725
-                  },
-                  "Model.html#save": {
-                    "ref": "Model.html#save",
-                    "tf": 725
-                  }
-                }
-              }
-            }
-          },
-          "t": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "g": {
-                    "docs": {
-                      "LocalStorageCollection.html": {
-                        "ref": "LocalStorageCollection.html",
-                        "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
           "e": {
             "docs": {},
             "r": {
@@ -1628,6 +1560,74 @@
                     "Model.html": {
                       "ref": "Model.html",
                       "tf": 8.333333333333332
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "y": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "c": {
+                "docs": {
+                  "PaginatedCollection.html#sync": {
+                    "ref": "PaginatedCollection.html#sync",
+                    "tf": 678.3333333333334
+                  },
+                  "Collection.html#sync": {
+                    "ref": "Collection.html#sync",
+                    "tf": 678.3333333333334
+                  },
+                  "LocalStorageCollection.html#sync": {
+                    "ref": "LocalStorageCollection.html#sync",
+                    "tf": 766.6666666666666
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "PaginatedCollection.html#save": {
+                    "ref": "PaginatedCollection.html#save",
+                    "tf": 725
+                  },
+                  "Collection.html#save": {
+                    "ref": "Collection.html#save",
+                    "tf": 725
+                  },
+                  "LocalStorageCollection.html#save": {
+                    "ref": "LocalStorageCollection.html#save",
+                    "tf": 725
+                  },
+                  "Model.html#save": {
+                    "ref": "Model.html#save",
+                    "tf": 725
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "g": {
+                    "docs": {
+                      "LocalStorageCollection.html": {
+                        "ref": "LocalStorageCollection.html",
+                        "tf": 12.5
+                      }
                     }
                   }
                 }
@@ -1746,24 +1746,24 @@
                       "ref": "list_class.html",
                       "tf": 635
                     },
+                    "PaginatedCollection.html": {
+                      "ref": "PaginatedCollection.html",
+                      "tf": 115.55555555555556
+                    },
                     "Collection.html": {
                       "ref": "Collection.html",
                       "tf": 135
+                    },
+                    "Pagination.PaginationFactory.html": {
+                      "ref": "Pagination.PaginationFactory.html",
+                      "tf": 110
                     },
                     "LocalStorageCollection.html": {
                       "ref": "LocalStorageCollection.html",
                       "tf": 110
                     },
-                    "PaginatedCollection.html": {
-                      "ref": "PaginatedCollection.html",
-                      "tf": 115.55555555555556
-                    },
                     "Model.html": {
                       "ref": "Model.html",
-                      "tf": 110
-                    },
-                    "Pagination.PaginationFactory.html": {
-                      "ref": "Pagination.PaginationFactory.html",
                       "tf": 110
                     }
                   }
@@ -1800,6 +1800,30 @@
                     "docs": {},
                     "t": {
                       "docs": {
+                        "PaginatedCollection.html": {
+                          "ref": "PaginatedCollection.html",
+                          "tf": 11.11111111111111
+                        },
+                        "PaginatedCollection.html#sync": {
+                          "ref": "PaginatedCollection.html#sync",
+                          "tf": 8.333333333333332
+                        },
+                        "PaginatedCollection.html#save": {
+                          "ref": "PaginatedCollection.html#save",
+                          "tf": 25
+                        },
+                        "PaginatedCollection.html#update": {
+                          "ref": "PaginatedCollection.html#update",
+                          "tf": 25
+                        },
+                        "PaginatedCollection.html#destroy": {
+                          "ref": "PaginatedCollection.html#destroy",
+                          "tf": 25
+                        },
+                        "PaginatedCollection.html#refresh": {
+                          "ref": "PaginatedCollection.html#refresh",
+                          "tf": 25
+                        },
                         "Collection.html": {
                           "ref": "Collection.html",
                           "tf": 1925
@@ -1823,6 +1847,10 @@
                         "Collection.html#destroy": {
                           "ref": "Collection.html#destroy",
                           "tf": 25
+                        },
+                        "Pagination.PaginationFactory.html": {
+                          "ref": "Pagination.PaginationFactory.html",
+                          "tf": 7.142857142857142
                         },
                         "LocalStorageCollection.html": {
                           "ref": "LocalStorageCollection.html",
@@ -1851,34 +1879,6 @@
                         "LocalStorageCollection.html#sync": {
                           "ref": "LocalStorageCollection.html#sync",
                           "tf": 16.666666666666664
-                        },
-                        "PaginatedCollection.html": {
-                          "ref": "PaginatedCollection.html",
-                          "tf": 11.11111111111111
-                        },
-                        "PaginatedCollection.html#refresh": {
-                          "ref": "PaginatedCollection.html#refresh",
-                          "tf": 25
-                        },
-                        "PaginatedCollection.html#sync": {
-                          "ref": "PaginatedCollection.html#sync",
-                          "tf": 8.333333333333332
-                        },
-                        "PaginatedCollection.html#save": {
-                          "ref": "PaginatedCollection.html#save",
-                          "tf": 25
-                        },
-                        "PaginatedCollection.html#update": {
-                          "ref": "PaginatedCollection.html#update",
-                          "tf": 25
-                        },
-                        "PaginatedCollection.html#destroy": {
-                          "ref": "PaginatedCollection.html#destroy",
-                          "tf": 25
-                        },
-                        "Pagination.PaginationFactory.html": {
-                          "ref": "Pagination.PaginationFactory.html",
-                          "tf": 7.142857142857142
                         }
                       },
                       "i": {
@@ -1887,6 +1887,29 @@
                           "docs": {},
                           "n": {
                             "docs": {},
+                            ".": {
+                              "docs": {},
+                              "f": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {},
+                                    "c": {
+                                      "docs": {},
+                                      "h": {
+                                        "docs": {
+                                          "PaginatedCollection.html#fetch": {
+                                            "ref": "PaginatedCollection.html#fetch",
+                                            "tf": 10
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
                             "#": {
                               "docs": {},
                               "u": {
@@ -1988,29 +2011,6 @@
                                   }
                                 }
                               }
-                            },
-                            ".": {
-                              "docs": {},
-                              "f": {
-                                "docs": {},
-                                "e": {
-                                  "docs": {},
-                                  "t": {
-                                    "docs": {},
-                                    "c": {
-                                      "docs": {},
-                                      "h": {
-                                        "docs": {
-                                          "PaginatedCollection.html#fetch": {
-                                            "ref": "PaginatedCollection.html#fetch",
-                                            "tf": 10
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
                             }
                           }
                         }
@@ -2027,16 +2027,16 @@
               "docs": {},
               "l": {
                 "docs": {
+                  "PaginatedCollection.html#sync": {
+                    "ref": "PaginatedCollection.html#sync",
+                    "tf": 8.333333333333332
+                  },
                   "Collection.html#sync": {
                     "ref": "Collection.html#sync",
                     "tf": 8.333333333333332
                   },
                   "LocalStorageCollection.html#init": {
                     "ref": "LocalStorageCollection.html#init",
-                    "tf": 8.333333333333332
-                  },
-                  "PaginatedCollection.html#sync": {
-                    "ref": "PaginatedCollection.html#sync",
                     "tf": 8.333333333333332
                   }
                 }
@@ -2045,23 +2045,6 @@
           },
           "u": {
             "docs": {},
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "m": {
-                    "docs": {
-                      "LocalStorageCollection.html#init": {
-                        "ref": "LocalStorageCollection.html#init",
-                        "tf": 8.333333333333332
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "r": {
               "docs": {},
               "r": {
@@ -2076,6 +2059,23 @@
                           "ref": "PaginatedCollection.html#setCurrentPage",
                           "tf": 16.666666666666664
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "m": {
+                    "docs": {
+                      "LocalStorageCollection.html#init": {
+                        "ref": "LocalStorageCollection.html#init",
+                        "tf": 8.333333333333332
                       }
                     }
                   }
@@ -2143,17 +2143,45 @@
                             "docs": {},
                             "t": {
                               "docs": {
-                                "Collection.html#sync": {
-                                  "ref": "Collection.html#sync",
-                                  "tf": 20
-                                },
                                 "PaginatedCollection.html#sync": {
                                   "ref": "PaginatedCollection.html#sync",
+                                  "tf": 20
+                                },
+                                "Collection.html#sync": {
+                                  "ref": "Collection.html#sync",
                                   "tf": 20
                                 }
                               }
                             }
                           }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "PaginatedCollection.html#lastPage": {
+                    "ref": "PaginatedCollection.html#lastPage",
+                    "tf": 16.666666666666664
+                  }
+                },
+                "p": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "g": {
+                      "docs": {
+                        "PaginatedCollection.html#lastPage": {
+                          "ref": "PaginatedCollection.html#lastPage",
+                          "tf": 750
                         }
                       }
                     }
@@ -2419,29 +2447,21 @@
                 }
               }
             }
-          },
+          }
+        },
+        "h": {
+          "docs": {},
           "a": {
             "docs": {},
-            "s": {
+            "n": {
               "docs": {},
-              "t": {
-                "docs": {
-                  "PaginatedCollection.html#lastPage": {
-                    "ref": "PaginatedCollection.html#lastPage",
-                    "tf": 16.666666666666664
-                  }
-                },
-                "p": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "g": {
-                      "docs": {
-                        "PaginatedCollection.html#lastPage": {
-                          "ref": "PaginatedCollection.html#lastPage",
-                          "tf": 750
-                        }
-                      }
+              "d": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "PaginatedCollection.html": {
+                      "ref": "PaginatedCollection.html",
+                      "tf": 5.555555555555555
                     }
                   }
                 }
@@ -2461,6 +2481,10 @@
                   "docs": {},
                   "r": {
                     "docs": {
+                      "PaginatedCollection.html#url": {
+                        "ref": "PaginatedCollection.html#url",
+                        "tf": 110
+                      },
                       "Collection.html#url": {
                         "ref": "Collection.html#url",
                         "tf": 110
@@ -2475,10 +2499,6 @@
                       },
                       "LocalStorageCollection.html#namespace": {
                         "ref": "LocalStorageCollection.html#namespace",
-                        "tf": 110
-                      },
-                      "PaginatedCollection.html#url": {
-                        "ref": "PaginatedCollection.html#url",
                         "tf": 110
                       },
                       "Model.html#url": {
@@ -2498,6 +2518,14 @@
                   "docs": {},
                   "d": {
                     "docs": {
+                      "PaginatedCollection.html#sync": {
+                        "ref": "PaginatedCollection.html#sync",
+                        "tf": 20
+                      },
+                      "PaginatedCollection.html#fetch": {
+                        "ref": "PaginatedCollection.html#fetch",
+                        "tf": 10
+                      },
                       "Collection.html#sync": {
                         "ref": "Collection.html#sync",
                         "tf": 20
@@ -2509,14 +2537,6 @@
                       "LocalStorageCollection.html#sync": {
                         "ref": "LocalStorageCollection.html#sync",
                         "tf": 16.666666666666664
-                      },
-                      "PaginatedCollection.html#fetch": {
-                        "ref": "PaginatedCollection.html#fetch",
-                        "tf": 10
-                      },
-                      "PaginatedCollection.html#sync": {
-                        "ref": "PaginatedCollection.html#sync",
-                        "tf": 20
                       }
                     }
                   }
@@ -2532,6 +2552,10 @@
                 "docs": {},
                 "l": {
                   "docs": {
+                    "PaginatedCollection.html#sync": {
+                      "ref": "PaginatedCollection.html#sync",
+                      "tf": 20
+                    },
                     "Collection.html#sync": {
                       "ref": "Collection.html#sync",
                       "tf": 20
@@ -2543,10 +2567,6 @@
                     "LocalStorageCollection.html#init": {
                       "ref": "LocalStorageCollection.html#init",
                       "tf": 8.333333333333332
-                    },
-                    "PaginatedCollection.html#sync": {
-                      "ref": "PaginatedCollection.html#sync",
-                      "tf": 20
                     },
                     "Model.html": {
                       "ref": "Model.html",
@@ -2691,6 +2711,10 @@
             "docs": {},
             "l": {
               "docs": {
+                "PaginatedCollection.html#url": {
+                  "ref": "PaginatedCollection.html#url",
+                  "tf": 750
+                },
                 "Collection.html#url": {
                   "ref": "Collection.html#url",
                   "tf": 750
@@ -2698,10 +2722,6 @@
                 "LocalStorageCollection.html#key": {
                   "ref": "LocalStorageCollection.html#key",
                   "tf": 6.25
-                },
-                "PaginatedCollection.html#url": {
-                  "ref": "PaginatedCollection.html#url",
-                  "tf": 750
                 },
                 "Model.html#url": {
                   "ref": "Model.html#url",
@@ -2718,16 +2738,16 @@
                 "docs": {},
                 "t": {
                   "docs": {
+                    "PaginatedCollection.html#update": {
+                      "ref": "PaginatedCollection.html#update",
+                      "tf": 725
+                    },
                     "Collection.html#update": {
                       "ref": "Collection.html#update",
                       "tf": 725
                     },
                     "LocalStorageCollection.html#update": {
                       "ref": "LocalStorageCollection.html#update",
-                      "tf": 725
-                    },
-                    "PaginatedCollection.html#update": {
-                      "ref": "PaginatedCollection.html#update",
                       "tf": 725
                     },
                     "Model.html#update": {
@@ -2750,12 +2770,12 @@
                 "docs": {},
                 "d": {
                   "docs": {
-                    "Collection.html#sync": {
-                      "ref": "Collection.html#sync",
-                      "tf": 8.333333333333332
-                    },
                     "PaginatedCollection.html#sync": {
                       "ref": "PaginatedCollection.html#sync",
+                      "tf": 8.333333333333332
+                    },
+                    "Collection.html#sync": {
+                      "ref": "Collection.html#sync",
                       "tf": 8.333333333333332
                     }
                   }
@@ -2765,21 +2785,6 @@
           },
           "a": {
             "docs": {},
-            "s": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "LocalStorageCollection.html": {
-                    "ref": "LocalStorageCollection.html",
-                    "tf": 12.5
-                  },
-                  "LocalStorageCollection.html#key": {
-                    "ref": "LocalStorageCollection.html#key",
-                    "tf": 12.5
-                  }
-                }
-              }
-            },
             "c": {
               "docs": {},
               "k": {
@@ -2853,6 +2858,21 @@
                   }
                 }
               }
+            },
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "LocalStorageCollection.html": {
+                    "ref": "LocalStorageCollection.html",
+                    "tf": 12.5
+                  },
+                  "LocalStorageCollection.html#key": {
+                    "ref": "LocalStorageCollection.html#key",
+                    "tf": 12.5
+                  }
+                }
+              }
             }
           }
         },
@@ -2872,6 +2892,58 @@
                       "docs": {},
                       "n": {
                         "docs": {
+                          "PaginatedCollection.html#sync": {
+                            "ref": "PaginatedCollection.html#sync",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#setPageSize": {
+                            "ref": "PaginatedCollection.html#setPageSize",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#setCurrentPage": {
+                            "ref": "PaginatedCollection.html#setCurrentPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#fetch": {
+                            "ref": "PaginatedCollection.html#fetch",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#save": {
+                            "ref": "PaginatedCollection.html#save",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#nextPage": {
+                            "ref": "PaginatedCollection.html#nextPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#update": {
+                            "ref": "PaginatedCollection.html#update",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#previousPage": {
+                            "ref": "PaginatedCollection.html#previousPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#destroy": {
+                            "ref": "PaginatedCollection.html#destroy",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#goToPage": {
+                            "ref": "PaginatedCollection.html#goToPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#firstPage": {
+                            "ref": "PaginatedCollection.html#firstPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#lastPage": {
+                            "ref": "PaginatedCollection.html#lastPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#refresh": {
+                            "ref": "PaginatedCollection.html#refresh",
+                            "tf": 110
+                          },
                           "Collection.html#sync": {
                             "ref": "Collection.html#sync",
                             "tf": 110
@@ -2920,58 +2992,6 @@
                             "ref": "LocalStorageCollection.html#sync",
                             "tf": 110
                           },
-                          "PaginatedCollection.html#setPageSize": {
-                            "ref": "PaginatedCollection.html#setPageSize",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#setCurrentPage": {
-                            "ref": "PaginatedCollection.html#setCurrentPage",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#fetch": {
-                            "ref": "PaginatedCollection.html#fetch",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#nextPage": {
-                            "ref": "PaginatedCollection.html#nextPage",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#previousPage": {
-                            "ref": "PaginatedCollection.html#previousPage",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#goToPage": {
-                            "ref": "PaginatedCollection.html#goToPage",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#firstPage": {
-                            "ref": "PaginatedCollection.html#firstPage",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#lastPage": {
-                            "ref": "PaginatedCollection.html#lastPage",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#refresh": {
-                            "ref": "PaginatedCollection.html#refresh",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#sync": {
-                            "ref": "PaginatedCollection.html#sync",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#save": {
-                            "ref": "PaginatedCollection.html#save",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#update": {
-                            "ref": "PaginatedCollection.html#update",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#destroy": {
-                            "ref": "PaginatedCollection.html#destroy",
-                            "tf": 110
-                          },
                           "Model.html#fetch": {
                             "ref": "Model.html#fetch",
                             "tf": 110
@@ -3004,6 +3024,10 @@
                 "docs": {},
                 "h": {
                   "docs": {
+                    "PaginatedCollection.html#fetch": {
+                      "ref": "PaginatedCollection.html#fetch",
+                      "tf": 760
+                    },
                     "Collection.html#fetch": {
                       "ref": "Collection.html#fetch",
                       "tf": 725
@@ -3011,10 +3035,6 @@
                     "LocalStorageCollection.html#fetch": {
                       "ref": "LocalStorageCollection.html#fetch",
                       "tf": 725
-                    },
-                    "PaginatedCollection.html#fetch": {
-                      "ref": "PaginatedCollection.html#fetch",
-                      "tf": 760
                     },
                     "Model.html#fetch": {
                       "ref": "Model.html#fetch",
@@ -3092,6 +3112,22 @@
                   "docs": {},
                   "n": {
                     "docs": {
+                      "PaginatedCollection.html#sync": {
+                        "ref": "PaginatedCollection.html#sync",
+                        "tf": 20
+                      },
+                      "PaginatedCollection.html#save": {
+                        "ref": "PaginatedCollection.html#save",
+                        "tf": 50
+                      },
+                      "PaginatedCollection.html#update": {
+                        "ref": "PaginatedCollection.html#update",
+                        "tf": 50
+                      },
+                      "PaginatedCollection.html#destroy": {
+                        "ref": "PaginatedCollection.html#destroy",
+                        "tf": 50
+                      },
                       "Collection.html#sync": {
                         "ref": "Collection.html#sync",
                         "tf": 20
@@ -3136,22 +3172,6 @@
                         "ref": "LocalStorageCollection.html#destroy",
                         "tf": 50
                       },
-                      "PaginatedCollection.html#sync": {
-                        "ref": "PaginatedCollection.html#sync",
-                        "tf": 20
-                      },
-                      "PaginatedCollection.html#save": {
-                        "ref": "PaginatedCollection.html#save",
-                        "tf": 50
-                      },
-                      "PaginatedCollection.html#update": {
-                        "ref": "PaginatedCollection.html#update",
-                        "tf": 50
-                      },
-                      "PaginatedCollection.html#destroy": {
-                        "ref": "PaginatedCollection.html#destroy",
-                        "tf": 50
-                      },
                       "Model.html#fetch": {
                         "ref": "Model.html#fetch",
                         "tf": 50
@@ -3169,6 +3189,23 @@
                         "tf": 50
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "y": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "Pagination.PaginationFactory.html": {
+                    "ref": "Pagination.PaginationFactory.html",
+                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -3206,26 +3243,6 @@
             }
           }
         },
-        "h": {
-          "docs": {},
-          "a": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "d": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "PaginatedCollection.html": {
-                      "ref": "PaginatedCollection.html",
-                      "tf": 5.555555555555555
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
         "v": {
           "docs": {},
           "a": {
@@ -3240,23 +3257,6 @@
                       "ref": "Model.html",
                       "tf": 8.333333333333332
                     }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "t": {
-          "docs": {},
-          "y": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "Pagination.PaginationFactory.html": {
-                    "ref": "Pagination.PaginationFactory.html",
-                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -3425,6 +3425,157 @@
       "description": "",
       "body": ""
     },
+    "PaginatedCollection.html": {
+      "id": "PaginatedCollection.html",
+      "kind": "class",
+      "title": "PaginatedCollection",
+      "longname": "PaginatedCollection",
+      "name": "PaginatedCollection",
+      "tags": "PaginatedCollection",
+      "summary": "",
+      "description": "Paginated Collection Class - A Collection that handles pagination from client or server-side",
+      "body": ""
+    },
+    "PaginatedCollection.html#url": {
+      "id": "PaginatedCollection.html#url",
+      "kind": "member",
+      "title": "url",
+      "longname": "PaginatedCollection#url",
+      "name": "url",
+      "tags": "PaginatedCollection#url url",
+      "summary": "",
+      "description": ""
+    },
+    "PaginatedCollection.html#sync": {
+      "id": "PaginatedCollection.html#sync",
+      "kind": "function",
+      "title": "&lt;async&gt; sync( method, model, options )",
+      "longname": "PaginatedCollection#sync",
+      "name": "sync",
+      "tags": "PaginatedCollection#sync sync",
+      "summary": "",
+      "description": "Sync collection data to bound REST call"
+    },
+    "PaginatedCollection.html#setPageSize": {
+      "id": "PaginatedCollection.html#setPageSize",
+      "kind": "function",
+      "title": "setPageSize( size )",
+      "longname": "PaginatedCollection#setPageSize",
+      "name": "setPageSize",
+      "tags": "PaginatedCollection#setPageSize setPageSize",
+      "summary": "",
+      "description": "Sets the number of items in a page"
+    },
+    "PaginatedCollection.html#setCurrentPage": {
+      "id": "PaginatedCollection.html#setCurrentPage",
+      "kind": "function",
+      "title": "setCurrentPage( page )",
+      "longname": "PaginatedCollection#setCurrentPage",
+      "name": "setCurrentPage",
+      "tags": "PaginatedCollection#setCurrentPage setCurrentPage",
+      "summary": "",
+      "description": "Sets the current page"
+    },
+    "PaginatedCollection.html#fetch": {
+      "id": "PaginatedCollection.html#fetch",
+      "kind": "function",
+      "title": "fetch()",
+      "longname": "PaginatedCollection#fetch",
+      "name": "fetch",
+      "tags": "PaginatedCollection#fetch fetch",
+      "summary": "",
+      "description": "Collection.fetch - rewritten fetch method from Backbone.Collection.fetch"
+    },
+    "PaginatedCollection.html#save": {
+      "id": "PaginatedCollection.html#save",
+      "kind": "function",
+      "title": "save( options )",
+      "longname": "PaginatedCollection#save",
+      "name": "save",
+      "tags": "PaginatedCollection#save save",
+      "summary": "",
+      "description": "Save the collection"
+    },
+    "PaginatedCollection.html#nextPage": {
+      "id": "PaginatedCollection.html#nextPage",
+      "kind": "function",
+      "title": "nextPage()",
+      "longname": "PaginatedCollection#nextPage",
+      "name": "nextPage",
+      "tags": "PaginatedCollection#nextPage nextPage",
+      "summary": "",
+      "description": "Moves to the next page"
+    },
+    "PaginatedCollection.html#update": {
+      "id": "PaginatedCollection.html#update",
+      "kind": "function",
+      "title": "update( options )",
+      "longname": "PaginatedCollection#update",
+      "name": "update",
+      "tags": "PaginatedCollection#update update",
+      "summary": "",
+      "description": "Update the collection"
+    },
+    "PaginatedCollection.html#previousPage": {
+      "id": "PaginatedCollection.html#previousPage",
+      "kind": "function",
+      "title": "previousPage()",
+      "longname": "PaginatedCollection#previousPage",
+      "name": "previousPage",
+      "tags": "PaginatedCollection#previousPage previousPage",
+      "summary": "",
+      "description": "Moves to the previous page"
+    },
+    "PaginatedCollection.html#destroy": {
+      "id": "PaginatedCollection.html#destroy",
+      "kind": "function",
+      "title": "destroy( options )",
+      "longname": "PaginatedCollection#destroy",
+      "name": "destroy",
+      "tags": "PaginatedCollection#destroy destroy",
+      "summary": "",
+      "description": "Destroy the collection"
+    },
+    "PaginatedCollection.html#goToPage": {
+      "id": "PaginatedCollection.html#goToPage",
+      "kind": "function",
+      "title": "goToPage( page )",
+      "longname": "PaginatedCollection#goToPage",
+      "name": "goToPage",
+      "tags": "PaginatedCollection#goToPage goToPage",
+      "summary": "",
+      "description": "Goes to page"
+    },
+    "PaginatedCollection.html#firstPage": {
+      "id": "PaginatedCollection.html#firstPage",
+      "kind": "function",
+      "title": "firstPage()",
+      "longname": "PaginatedCollection#firstPage",
+      "name": "firstPage",
+      "tags": "PaginatedCollection#firstPage firstPage",
+      "summary": "",
+      "description": "Moves to the first page"
+    },
+    "PaginatedCollection.html#lastPage": {
+      "id": "PaginatedCollection.html#lastPage",
+      "kind": "function",
+      "title": "lastPage()",
+      "longname": "PaginatedCollection#lastPage",
+      "name": "lastPage",
+      "tags": "PaginatedCollection#lastPage lastPage",
+      "summary": "",
+      "description": "Moves to the last page"
+    },
+    "PaginatedCollection.html#refresh": {
+      "id": "PaginatedCollection.html#refresh",
+      "kind": "function",
+      "title": "refresh()",
+      "longname": "PaginatedCollection#refresh",
+      "name": "refresh",
+      "tags": "PaginatedCollection#refresh refresh",
+      "summary": "",
+      "description": "Refreshes the collection"
+    },
     "Collection.html": {
       "id": "Collection.html",
       "kind": "class",
@@ -3495,6 +3646,17 @@
       "tags": "Collection#destroy destroy",
       "summary": "",
       "description": "Destroy the collection"
+    },
+    "Pagination.PaginationFactory.html": {
+      "id": "Pagination.PaginationFactory.html",
+      "kind": "class",
+      "title": "PaginationFactory",
+      "longname": "Pagination.PaginationFactory",
+      "name": "PaginationFactory",
+      "tags": "Pagination.PaginationFactory PaginationFactory",
+      "summary": "",
+      "description": "Pagination factory for returning pagination collections of an API type",
+      "body": ""
     },
     "LocalStorageCollection.html": {
       "id": "LocalStorageCollection.html",
@@ -3607,157 +3769,6 @@
       "summary": "",
       "description": "Sync method for Collection"
     },
-    "PaginatedCollection.html": {
-      "id": "PaginatedCollection.html",
-      "kind": "class",
-      "title": "PaginatedCollection",
-      "longname": "PaginatedCollection",
-      "name": "PaginatedCollection",
-      "tags": "PaginatedCollection",
-      "summary": "",
-      "description": "Paginated Collection Class - A Collection that handles pagination from client or server-side",
-      "body": ""
-    },
-    "PaginatedCollection.html#url": {
-      "id": "PaginatedCollection.html#url",
-      "kind": "member",
-      "title": "url",
-      "longname": "PaginatedCollection#url",
-      "name": "url",
-      "tags": "PaginatedCollection#url url",
-      "summary": "",
-      "description": ""
-    },
-    "PaginatedCollection.html#setPageSize": {
-      "id": "PaginatedCollection.html#setPageSize",
-      "kind": "function",
-      "title": "setPageSize( size )",
-      "longname": "PaginatedCollection#setPageSize",
-      "name": "setPageSize",
-      "tags": "PaginatedCollection#setPageSize setPageSize",
-      "summary": "",
-      "description": "Sets the number of items in a page"
-    },
-    "PaginatedCollection.html#setCurrentPage": {
-      "id": "PaginatedCollection.html#setCurrentPage",
-      "kind": "function",
-      "title": "setCurrentPage( page )",
-      "longname": "PaginatedCollection#setCurrentPage",
-      "name": "setCurrentPage",
-      "tags": "PaginatedCollection#setCurrentPage setCurrentPage",
-      "summary": "",
-      "description": "Sets the current page"
-    },
-    "PaginatedCollection.html#fetch": {
-      "id": "PaginatedCollection.html#fetch",
-      "kind": "function",
-      "title": "fetch()",
-      "longname": "PaginatedCollection#fetch",
-      "name": "fetch",
-      "tags": "PaginatedCollection#fetch fetch",
-      "summary": "",
-      "description": "Collection.fetch - rewritten fetch method from Backbone.Collection.fetch"
-    },
-    "PaginatedCollection.html#nextPage": {
-      "id": "PaginatedCollection.html#nextPage",
-      "kind": "function",
-      "title": "nextPage()",
-      "longname": "PaginatedCollection#nextPage",
-      "name": "nextPage",
-      "tags": "PaginatedCollection#nextPage nextPage",
-      "summary": "",
-      "description": "Moves to the next page"
-    },
-    "PaginatedCollection.html#previousPage": {
-      "id": "PaginatedCollection.html#previousPage",
-      "kind": "function",
-      "title": "previousPage()",
-      "longname": "PaginatedCollection#previousPage",
-      "name": "previousPage",
-      "tags": "PaginatedCollection#previousPage previousPage",
-      "summary": "",
-      "description": "Moves to the previous page"
-    },
-    "PaginatedCollection.html#goToPage": {
-      "id": "PaginatedCollection.html#goToPage",
-      "kind": "function",
-      "title": "goToPage( page )",
-      "longname": "PaginatedCollection#goToPage",
-      "name": "goToPage",
-      "tags": "PaginatedCollection#goToPage goToPage",
-      "summary": "",
-      "description": "Goes to page"
-    },
-    "PaginatedCollection.html#firstPage": {
-      "id": "PaginatedCollection.html#firstPage",
-      "kind": "function",
-      "title": "firstPage()",
-      "longname": "PaginatedCollection#firstPage",
-      "name": "firstPage",
-      "tags": "PaginatedCollection#firstPage firstPage",
-      "summary": "",
-      "description": "Moves to the first page"
-    },
-    "PaginatedCollection.html#lastPage": {
-      "id": "PaginatedCollection.html#lastPage",
-      "kind": "function",
-      "title": "lastPage()",
-      "longname": "PaginatedCollection#lastPage",
-      "name": "lastPage",
-      "tags": "PaginatedCollection#lastPage lastPage",
-      "summary": "",
-      "description": "Moves to the last page"
-    },
-    "PaginatedCollection.html#refresh": {
-      "id": "PaginatedCollection.html#refresh",
-      "kind": "function",
-      "title": "refresh()",
-      "longname": "PaginatedCollection#refresh",
-      "name": "refresh",
-      "tags": "PaginatedCollection#refresh refresh",
-      "summary": "",
-      "description": "Refreshes the collection"
-    },
-    "PaginatedCollection.html#sync": {
-      "id": "PaginatedCollection.html#sync",
-      "kind": "function",
-      "title": "&lt;async&gt; sync( method, model, options )",
-      "longname": "PaginatedCollection#sync",
-      "name": "sync",
-      "tags": "PaginatedCollection#sync sync",
-      "summary": "",
-      "description": "Sync collection data to bound REST call"
-    },
-    "PaginatedCollection.html#save": {
-      "id": "PaginatedCollection.html#save",
-      "kind": "function",
-      "title": "save( options )",
-      "longname": "PaginatedCollection#save",
-      "name": "save",
-      "tags": "PaginatedCollection#save save",
-      "summary": "",
-      "description": "Save the collection"
-    },
-    "PaginatedCollection.html#update": {
-      "id": "PaginatedCollection.html#update",
-      "kind": "function",
-      "title": "update( options )",
-      "longname": "PaginatedCollection#update",
-      "name": "update",
-      "tags": "PaginatedCollection#update update",
-      "summary": "",
-      "description": "Update the collection"
-    },
-    "PaginatedCollection.html#destroy": {
-      "id": "PaginatedCollection.html#destroy",
-      "kind": "function",
-      "title": "destroy( options )",
-      "longname": "PaginatedCollection#destroy",
-      "name": "destroy",
-      "tags": "PaginatedCollection#destroy destroy",
-      "summary": "",
-      "description": "Destroy the collection"
-    },
     "Model.html": {
       "id": "Model.html",
       "kind": "class",
@@ -3818,17 +3829,6 @@
       "tags": "Model#destroy destroy",
       "summary": "",
       "description": "Destroy the model"
-    },
-    "Pagination.PaginationFactory.html": {
-      "id": "Pagination.PaginationFactory.html",
-      "kind": "class",
-      "title": "PaginationFactory",
-      "longname": "Pagination.PaginationFactory",
-      "name": "PaginationFactory",
-      "tags": "Pagination.PaginationFactory PaginationFactory",
-      "summary": "",
-      "description": "Pagination factory for returning pagination collections of an API type",
-      "body": ""
     }
   }
 }
