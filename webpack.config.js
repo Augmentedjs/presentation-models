@@ -43,12 +43,6 @@ module.exports = {
       commonjs2: 'presentation-storage',
       amd: 'presentation-storage',
       root: 'presentation-storage'
-    },
-    'augmentedjs-next': {
-      commonjs: 'augmentedjs-next',
-      commonjs2: 'augmentedjs-next',
-      amd: 'augmentedjs-next',
-      root: 'Augmented'
     }
   },
   stats: "errors-only",
