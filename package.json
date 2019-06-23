@@ -1,6 +1,6 @@
 {
   "name": "presentation-models",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "description": "The Augmented.js Next - Presentation Dom Module.",
   "main": "dist/presentation-models.js",
   "scripts": {
