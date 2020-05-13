@@ -42,7 +42,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "next-core-model": "^2.7.0",
+    "next-core-model": "^3.0.0",
     "presentation-request": "^2.6.3",
     "presentation-storage": "^2.5.7"
   },

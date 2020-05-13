@@ -10,16 +10,14 @@ Augmented.js Presentation Models & Collections Module
 
 -   [Model](#model)
     -   [Parameters](#parameters)
-    -   [url](#url)
+    -   [uri](#uri)
         -   [Properties](#properties)
-    -   [url](#url-1)
-        -   [Properties](#properties-1)
     -   [sync](#sync)
         -   [Parameters](#parameters-1)
-        -   [Properties](#properties-2)
+        -   [Properties](#properties-1)
     -   [sync](#sync-1)
         -   [Parameters](#parameters-2)
-        -   [Properties](#properties-3)
+        -   [Properties](#properties-2)
     -   [fetch](#fetch)
         -   [Parameters](#parameters-3)
     -   [save](#save)
@@ -31,10 +29,8 @@ Augmented.js Presentation Models & Collections Module
 -   [sync](#sync-2)
 -   [Collection](#collection)
     -   [Parameters](#parameters-7)
-    -   [url](#url-2)
-        -   [Properties](#properties-4)
-    -   [url](#url-3)
-        -   [Properties](#properties-5)
+    -   [uri](#uri-1)
+        -   [Properties](#properties-3)
     -   [sync](#sync-3)
         -   [Parameters](#parameters-8)
     -   [fetch](#fetch-1)
@@ -48,11 +44,11 @@ Augmented.js Presentation Models & Collections Module
 -   [LocalStorageCollection](#localstoragecollection)
     -   [Parameters](#parameters-13)
     -   [key](#key)
-        -   [Properties](#properties-6)
+        -   [Properties](#properties-4)
     -   [persist](#persist)
-        -   [Properties](#properties-7)
+        -   [Properties](#properties-5)
     -   [namespace](#namespace)
-        -   [Properties](#properties-8)
+        -   [Properties](#properties-6)
     -   [initialize](#initialize)
         -   [Parameters](#parameters-14)
     -   [init](#init)
@@ -88,13 +84,13 @@ Augmented.js Presentation Models & Collections Module
     -   [refresh](#refresh)
 -   [PaginationFactory](#paginationfactory)
 -   [PAGINATION_API_TYPE](#pagination_api_type)
-    -   [Properties](#properties-9)
+    -   [Properties](#properties-7)
 -   [getPaginatedCollection](#getpaginatedcollection)
     -   [Parameters](#parameters-28)
 
 ## Model
 
-**Extends Augmented.AbstractModel**
+**Extends AbstractModel**
 
 Model <br/>
 Supports: <ul>
@@ -110,18 +106,7 @@ Supports: <ul>
 -   `options`  
 -   `args` **...any** 
 
-### url
-
-#### Properties
-
--   `url` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The url for the datasource (if applicable)
-
-**Meta**
-
--   **deprecated**: This is deprecated.
-
-
-### url
+### uri
 
 #### Properties
 
@@ -193,27 +178,16 @@ sync - Sync model data to bound REST call
 
 ## Collection
 
-**Extends Augmented.AbstractCollection**
+**Extends AbstractCollection**
 
 Collection Class
 
 ### Parameters
 
 -   `models`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
-### url
-
-#### Properties
-
--   `url` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The url for the datasource (if applicable)
-
-**Meta**
-
--   **deprecated**: This is deprecated.
-
-
-### url
+### uri
 
 #### Properties
 
@@ -227,7 +201,7 @@ Sync collection data to bound REST call
 
 -   `method` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The method to Unsuccessfull
 -   `model` **[Model](#model)** The model to Sync
--   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The options to pass
+-   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The options to pass (optional, default `{}`)
 
 Returns **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** Returns a request function
 
@@ -265,7 +239,7 @@ Destroy the collection
 
 ## LocalStorageCollection
 
-**Extends Augmented.AbstractCollection**
+**Extends AbstractCollection**
 
 A local storage-based Collection
 
@@ -354,7 +328,7 @@ Sync method for Collection
 
 -   `method`  
 -   `model`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ## PaginatedCollection
 

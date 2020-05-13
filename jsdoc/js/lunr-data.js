@@ -68,10 +68,10 @@ window.lunrData = {
           "server",
           "side"
         ],
-        "PaginatedCollection.html#url": [
+        "PaginatedCollection.html#uri": [
           "member",
-          "paginatedcollection#url",
-          "url"
+          "paginatedcollection#uri",
+          "uri"
         ],
         "PaginatedCollection.html#sync": [
           "bound",
@@ -105,6 +105,27 @@ window.lunrData = {
           "set",
           "setcurrentpag"
         ],
+        "PaginatedCollection.html#save": [
+          "collect",
+          "function",
+          "option",
+          "paginatedcollection#sav",
+          "save"
+        ],
+        "PaginatedCollection.html#update": [
+          "collect",
+          "function",
+          "option",
+          "paginatedcollection#upd",
+          "updat"
+        ],
+        "PaginatedCollection.html#destroy": [
+          "collect",
+          "destroy",
+          "function",
+          "option",
+          "paginatedcollection#destroy"
+        ],
         "PaginatedCollection.html#fetch": [
           "backbone.collection.fetch",
           "collection.fetch",
@@ -114,13 +135,6 @@ window.lunrData = {
           "paginatedcollection#fetch",
           "rewritten"
         ],
-        "PaginatedCollection.html#save": [
-          "collect",
-          "function",
-          "option",
-          "paginatedcollection#sav",
-          "save"
-        ],
         "PaginatedCollection.html#nextPage": [
           "function",
           "move",
@@ -129,13 +143,6 @@ window.lunrData = {
           "page",
           "paginatedcollection#nextpag"
         ],
-        "PaginatedCollection.html#update": [
-          "collect",
-          "function",
-          "option",
-          "paginatedcollection#upd",
-          "updat"
-        ],
         "PaginatedCollection.html#previousPage": [
           "function",
           "move",
@@ -143,13 +150,6 @@ window.lunrData = {
           "paginatedcollection#previouspag",
           "previou",
           "previouspag"
-        ],
-        "PaginatedCollection.html#destroy": [
-          "collect",
-          "destroy",
-          "function",
-          "option",
-          "paginatedcollection#destroy"
         ],
         "PaginatedCollection.html#goToPage": [
           "function",
@@ -184,10 +184,10 @@ window.lunrData = {
           "class",
           "collect"
         ],
-        "Collection.html#url": [
-          "collection#url",
+        "Collection.html#uri": [
+          "collection#uri",
           "member",
-          "url"
+          "uri"
         ],
         "Collection.html#sync": [
           "bound",
@@ -335,10 +335,10 @@ window.lunrData = {
           "support",
           "valid"
         ],
-        "Model.html#url": [
+        "Model.html#uri": [
           "member",
-          "model#url",
-          "url"
+          "model#uri",
+          "uri"
         ],
         "Model.html#fetch": [
           "fetch",
@@ -805,10 +805,10 @@ window.lunrData = {
                                                   "docs": {},
                                                   "r": {
                                                     "docs": {},
-                                                    "l": {
+                                                    "i": {
                                                       "docs": {
-                                                        "PaginatedCollection.html#url": {
-                                                          "ref": "PaginatedCollection.html#url",
+                                                        "PaginatedCollection.html#uri": {
+                                                          "ref": "PaginatedCollection.html#uri",
                                                           "tf": 1150
                                                         }
                                                       }
@@ -915,6 +915,32 @@ window.lunrData = {
                                                     }
                                                   }
                                                 },
+                                                "d": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "o": {
+                                                            "docs": {},
+                                                            "y": {
+                                                              "docs": {
+                                                                "PaginatedCollection.html#destroy": {
+                                                                  "ref": "PaginatedCollection.html#destroy",
+                                                                  "tf": 1150
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
                                                 "f": {
                                                   "docs": {},
                                                   "e": {
@@ -1016,32 +1042,6 @@ window.lunrData = {
                                                                       }
                                                                     }
                                                                   }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "d": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "s": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "o": {
-                                                            "docs": {},
-                                                            "y": {
-                                                              "docs": {
-                                                                "PaginatedCollection.html#destroy": {
-                                                                  "ref": "PaginatedCollection.html#destroy",
-                                                                  "tf": 1150
                                                                 }
                                                               }
                                                             }
@@ -1916,10 +1916,10 @@ window.lunrData = {
                                 "docs": {},
                                 "r": {
                                   "docs": {},
-                                  "l": {
+                                  "i": {
                                     "docs": {
-                                      "Collection.html#url": {
-                                        "ref": "Collection.html#url",
+                                      "Collection.html#uri": {
+                                        "ref": "Collection.html#uri",
                                         "tf": 1150
                                       }
                                     }
@@ -2481,12 +2481,12 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
-                      "PaginatedCollection.html#url": {
-                        "ref": "PaginatedCollection.html#url",
+                      "PaginatedCollection.html#uri": {
+                        "ref": "PaginatedCollection.html#uri",
                         "tf": 110
                       },
-                      "Collection.html#url": {
-                        "ref": "Collection.html#url",
+                      "Collection.html#uri": {
+                        "ref": "Collection.html#uri",
                         "tf": 110
                       },
                       "LocalStorageCollection.html#key": {
@@ -2501,8 +2501,8 @@ window.lunrData = {
                         "ref": "LocalStorageCollection.html#namespace",
                         "tf": 110
                       },
-                      "Model.html#url": {
-                        "ref": "Model.html#url",
+                      "Model.html#uri": {
+                        "ref": "Model.html#uri",
                         "tf": 110
                       }
                     }
@@ -2595,10 +2595,10 @@ window.lunrData = {
                       "docs": {},
                       "r": {
                         "docs": {},
-                        "l": {
+                        "i": {
                           "docs": {
-                            "Model.html#url": {
-                              "ref": "Model.html#url",
+                            "Model.html#uri": {
+                              "ref": "Model.html#uri",
                               "tf": 1150
                             }
                           }
@@ -2709,23 +2709,27 @@ window.lunrData = {
           "docs": {},
           "r": {
             "docs": {},
+            "i": {
+              "docs": {
+                "PaginatedCollection.html#uri": {
+                  "ref": "PaginatedCollection.html#uri",
+                  "tf": 750
+                },
+                "Collection.html#uri": {
+                  "ref": "Collection.html#uri",
+                  "tf": 750
+                },
+                "Model.html#uri": {
+                  "ref": "Model.html#uri",
+                  "tf": 750
+                }
+              }
+            },
             "l": {
               "docs": {
-                "PaginatedCollection.html#url": {
-                  "ref": "PaginatedCollection.html#url",
-                  "tf": 750
-                },
-                "Collection.html#url": {
-                  "ref": "Collection.html#url",
-                  "tf": 750
-                },
                 "LocalStorageCollection.html#key": {
                   "ref": "LocalStorageCollection.html#key",
                   "tf": 6.25
-                },
-                "Model.html#url": {
-                  "ref": "Model.html#url",
-                  "tf": 750
                 }
               }
             }
@@ -2904,28 +2908,28 @@ window.lunrData = {
                             "ref": "PaginatedCollection.html#setCurrentPage",
                             "tf": 110
                           },
-                          "PaginatedCollection.html#fetch": {
-                            "ref": "PaginatedCollection.html#fetch",
-                            "tf": 110
-                          },
                           "PaginatedCollection.html#save": {
                             "ref": "PaginatedCollection.html#save",
-                            "tf": 110
-                          },
-                          "PaginatedCollection.html#nextPage": {
-                            "ref": "PaginatedCollection.html#nextPage",
                             "tf": 110
                           },
                           "PaginatedCollection.html#update": {
                             "ref": "PaginatedCollection.html#update",
                             "tf": 110
                           },
-                          "PaginatedCollection.html#previousPage": {
-                            "ref": "PaginatedCollection.html#previousPage",
-                            "tf": 110
-                          },
                           "PaginatedCollection.html#destroy": {
                             "ref": "PaginatedCollection.html#destroy",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#fetch": {
+                            "ref": "PaginatedCollection.html#fetch",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#nextPage": {
+                            "ref": "PaginatedCollection.html#nextPage",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#previousPage": {
+                            "ref": "PaginatedCollection.html#previousPage",
                             "tf": 110
                           },
                           "PaginatedCollection.html#goToPage": {
@@ -3281,7 +3285,7 @@ window.lunrData = {
       "collection#sav",
       "collection#sync",
       "collection#upd",
-      "collection#url",
+      "collection#uri",
       "collection.fetch",
       "current",
       "custom",
@@ -3328,7 +3332,7 @@ window.lunrData = {
       "model#fetch",
       "model#sav",
       "model#upd",
-      "model#url",
+      "model#uri",
       "move",
       "name",
       "namespac",
@@ -3353,7 +3357,7 @@ window.lunrData = {
       "paginatedcollection#setpages",
       "paginatedcollection#sync",
       "paginatedcollection#upd",
-      "paginatedcollection#url",
+      "paginatedcollection#uri",
       "pagination.paginationfactori",
       "paginationfactori",
       "persist",
@@ -3381,6 +3385,7 @@ window.lunrData = {
       "sync",
       "type",
       "updat",
+      "uri",
       "url",
       "valid",
       "wire"
@@ -3436,13 +3441,13 @@ window.lunrData = {
       "description": "Paginated Collection Class - A Collection that handles pagination from client or server-side",
       "body": ""
     },
-    "PaginatedCollection.html#url": {
-      "id": "PaginatedCollection.html#url",
+    "PaginatedCollection.html#uri": {
+      "id": "PaginatedCollection.html#uri",
       "kind": "member",
-      "title": "url",
-      "longname": "PaginatedCollection#url",
-      "name": "url",
-      "tags": "PaginatedCollection#url url",
+      "title": "uri",
+      "longname": "PaginatedCollection#uri",
+      "name": "uri",
+      "tags": "PaginatedCollection#uri uri",
       "summary": "",
       "description": ""
     },
@@ -3476,16 +3481,6 @@ window.lunrData = {
       "summary": "",
       "description": "Sets the current page"
     },
-    "PaginatedCollection.html#fetch": {
-      "id": "PaginatedCollection.html#fetch",
-      "kind": "function",
-      "title": "fetch()",
-      "longname": "PaginatedCollection#fetch",
-      "name": "fetch",
-      "tags": "PaginatedCollection#fetch fetch",
-      "summary": "",
-      "description": "Collection.fetch - rewritten fetch method from Backbone.Collection.fetch"
-    },
     "PaginatedCollection.html#save": {
       "id": "PaginatedCollection.html#save",
       "kind": "function",
@@ -3495,16 +3490,6 @@ window.lunrData = {
       "tags": "PaginatedCollection#save save",
       "summary": "",
       "description": "Save the collection"
-    },
-    "PaginatedCollection.html#nextPage": {
-      "id": "PaginatedCollection.html#nextPage",
-      "kind": "function",
-      "title": "nextPage()",
-      "longname": "PaginatedCollection#nextPage",
-      "name": "nextPage",
-      "tags": "PaginatedCollection#nextPage nextPage",
-      "summary": "",
-      "description": "Moves to the next page"
     },
     "PaginatedCollection.html#update": {
       "id": "PaginatedCollection.html#update",
@@ -3516,16 +3501,6 @@ window.lunrData = {
       "summary": "",
       "description": "Update the collection"
     },
-    "PaginatedCollection.html#previousPage": {
-      "id": "PaginatedCollection.html#previousPage",
-      "kind": "function",
-      "title": "previousPage()",
-      "longname": "PaginatedCollection#previousPage",
-      "name": "previousPage",
-      "tags": "PaginatedCollection#previousPage previousPage",
-      "summary": "",
-      "description": "Moves to the previous page"
-    },
     "PaginatedCollection.html#destroy": {
       "id": "PaginatedCollection.html#destroy",
       "kind": "function",
@@ -3535,6 +3510,36 @@ window.lunrData = {
       "tags": "PaginatedCollection#destroy destroy",
       "summary": "",
       "description": "Destroy the collection"
+    },
+    "PaginatedCollection.html#fetch": {
+      "id": "PaginatedCollection.html#fetch",
+      "kind": "function",
+      "title": "fetch()",
+      "longname": "PaginatedCollection#fetch",
+      "name": "fetch",
+      "tags": "PaginatedCollection#fetch fetch",
+      "summary": "",
+      "description": "Collection.fetch - rewritten fetch method from Backbone.Collection.fetch"
+    },
+    "PaginatedCollection.html#nextPage": {
+      "id": "PaginatedCollection.html#nextPage",
+      "kind": "function",
+      "title": "nextPage()",
+      "longname": "PaginatedCollection#nextPage",
+      "name": "nextPage",
+      "tags": "PaginatedCollection#nextPage nextPage",
+      "summary": "",
+      "description": "Moves to the next page"
+    },
+    "PaginatedCollection.html#previousPage": {
+      "id": "PaginatedCollection.html#previousPage",
+      "kind": "function",
+      "title": "previousPage()",
+      "longname": "PaginatedCollection#previousPage",
+      "name": "previousPage",
+      "tags": "PaginatedCollection#previousPage previousPage",
+      "summary": "",
+      "description": "Moves to the previous page"
     },
     "PaginatedCollection.html#goToPage": {
       "id": "PaginatedCollection.html#goToPage",
@@ -3587,13 +3592,13 @@ window.lunrData = {
       "description": "Collection Class",
       "body": ""
     },
-    "Collection.html#url": {
-      "id": "Collection.html#url",
+    "Collection.html#uri": {
+      "id": "Collection.html#uri",
       "kind": "member",
-      "title": "url",
-      "longname": "Collection#url",
-      "name": "url",
-      "tags": "Collection#url url",
+      "title": "uri",
+      "longname": "Collection#uri",
+      "name": "uri",
+      "tags": "Collection#uri uri",
       "summary": "",
       "description": ""
     },
@@ -3780,13 +3785,13 @@ window.lunrData = {
       "description": "Model Supports: REST Validation and Schemas Security",
       "body": ""
     },
-    "Model.html#url": {
-      "id": "Model.html#url",
+    "Model.html#uri": {
+      "id": "Model.html#uri",
       "kind": "member",
-      "title": "url",
-      "longname": "Model#url",
-      "name": "url",
-      "tags": "Model#url url",
+      "title": "uri",
+      "longname": "Model#uri",
+      "name": "uri",
+      "tags": "Model#uri uri",
       "summary": "",
       "description": ""
     },
