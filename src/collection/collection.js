@@ -11,35 +11,14 @@ class Collection extends AbstractCollection {
 
     this._uri = null;
 
-    if (options && options.url) {
-      console.warn("passing url is deprecated, use uri.");
-      this._uri = options.url;
-    }
-
     if (options && options.uri) {
       this._uri = options.uri;
     }
   };
 
   /**
-   * @property {string} url The url for the datasource (if applicable)
-   * @deprecated
-   */
-
-  /**
     * @property {string} uri The uri for the datasource (if applicable)
     */
-
-  get url() {
-    console.warn("using url is deprecated, use uri.");
-    return this._uri;
-  };
-
-  set url(uri) {
-    console.warn("using url is deprecated, use uri.");
-    this._uri = uri;
-  };
-
   get uri() {
     return this._uri;
   };
@@ -55,18 +34,11 @@ class Collection extends AbstractCollection {
    * @param {object} options The options to pass
    * @returns {function} Returns a request function
    */
-  async sync(method, model, options) {
-    if (!options) {
-      options = {};
-    }
+  async sync(method, model, options = {}) {
     if (this._uri) {
       options.uri = this._uri;
-    } else {
-      // TODO: is this really an issue?
-      console.warn("no uri?! :/");
     }
 
-    // TODO: pass this to the fetch
     if (this.crossOrigin === true) {
       options.crossDomain = true;
     }
@@ -76,7 +48,6 @@ class Collection extends AbstractCollection {
       };
     }
 
-    // TODO: Do I need this?
     if (this.mock) {
       options.mock = this.mock;
     }

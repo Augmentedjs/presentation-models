@@ -5,9 +5,4 @@ import PaginatedCollection from "./collection/paginated.js";
 import PaginationFactory from "./pagination/factory.js";
 import PAGINATION_API_TYPE from "./pagination/api.js";
 
-module.exports.Model = Model;
-module.exports.Collection = Collection;
-module.exports.LocalStorageCollection = LocalStorageCollection;
-module.exports.PaginatedCollection = PaginatedCollection;
-module.exports.PaginationFactory = PaginationFactory;
-module.exports.PAGINATION_API_TYPE = PAGINATION_API_TYPE;
+export { Model, Collection, LocalStorageCollection, PaginatedCollection, PaginationFactory, PAGINATION_API_TYPE };

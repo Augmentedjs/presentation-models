@@ -6,7 +6,7 @@ const DEFAULT_KEY = `${DEFAULT_NAMESPACE}.key`;
 
 /**
  * A local storage-based Collection
- * @extends Augmented.AbstractCollection
+ * @extends AbstractCollection
  */
 class LocalStorageCollection extends AbstractCollection {
   constructor(models, options) {
@@ -109,13 +109,9 @@ class LocalStorageCollection extends AbstractCollection {
   /**
    * Sync method for Collection
    */
-  sync(method, model, options) {
+  sync(method, model, options = {}) {
     let j = {};
     try {
-      if (!options) {
-        options = {};
-      }
-
       if (method === "create" || method === "update") {
         j = this.toJSON();
         this._storage.setItem(this._key, j);

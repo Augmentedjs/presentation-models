@@ -8,7 +8,7 @@ import { sync } from "presentation-request";
  * <li>Validation and Schemas</li>
  * <li>Security</li>
  * </ul>
- * @extends Augmented.AbstractModel
+ * @extends AbstractModel
  */
 class Model extends AbstractModel {
   constructor(attributes, options, ...args) {
@@ -17,34 +17,14 @@ class Model extends AbstractModel {
     this.crossOrigin = false;
     this._uri = null;
 
-    if (options && options.url) {
-      console.warn("passing url is deprecated, use uri.");
-      this._uri = options.url;
-    }
-
     if (options && options.uri) {
       this._uri = options.uri;
     }
   };
 
   /**
-   * @property {string} url The url for the datasource (if applicable)
-   * @deprecated
-   */
-
-  /**
     * @property {string} uri The uri for the datasource (if applicable)
     */
-
-  get url() {
-    console.warn("using url is deprecated, use uri.");
-    return this._uri;
-  };
-
-  set url(uri) {
-    console.warn("using url is deprecated, use uri.");
-    this._uri = uri;
-  };
 
   get uri() {
     return this._uri;
@@ -74,11 +54,8 @@ class Model extends AbstractModel {
     }
     if (this._uri) {
       options.uri = this._uri;
-    } else {
-      console.warn("no uri?! :/");
     }
 
-    // TODO: pass this to the fetch
     if (this.crossOrigin === true) {
       options.crossDomain = true;
     }
@@ -88,7 +65,6 @@ class Model extends AbstractModel {
       };
     }
 
-    // TODO: Do I need this?
     if (this.mock) {
       options.mock = this.mock;
     }
