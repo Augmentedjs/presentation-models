@@ -3,10 +3,10 @@ import { sync } from "presentation-request";
 
 /**
  * Collection Class
- * @extends Augmented.AbstractCollection
+ * @extends AbstractCollection
  */
 class Collection extends AbstractCollection {
-  constructor(models, options) {
+  constructor(models, options = {}) {
     super(models, options);
 
     this._uri = null;
@@ -62,6 +62,7 @@ class Collection extends AbstractCollection {
     if (this._uri) {
       options.uri = this._uri;
     } else {
+      // TODO: is this really an issue?
       console.warn("no uri?! :/");
     }
 
