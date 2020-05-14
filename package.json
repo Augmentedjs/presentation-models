@@ -1,6 +1,6 @@
 {
   "name": "presentation-models",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "The Augmented.js Next - Presentation Dom Module.",
   "main": "dist/presentation-models.js",
   "scripts": {
@@ -42,7 +42,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "next-core-model": "^3.0.0",
+    "next-core-model": "^3.0.1",
     "presentation-request": "^2.6.3",
     "presentation-storage": "^2.5.7"
   },
