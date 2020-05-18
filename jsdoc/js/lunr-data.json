@@ -68,10 +68,10 @@
           "server",
           "side"
         ],
-        "PaginatedCollection.html#uri": [
+        "PaginatedCollection.html#_uri": [
+          "_uri",
           "member",
-          "paginatedcollection#uri",
-          "uri"
+          "paginatedcollection#_uri"
         ],
         "PaginatedCollection.html#sync": [
           "bound",
@@ -97,6 +97,13 @@
           "setpages",
           "size"
         ],
+        "PaginatedCollection.html#save": [
+          "collect",
+          "function",
+          "option",
+          "paginatedcollection#sav",
+          "save"
+        ],
         "PaginatedCollection.html#setCurrentPage": [
           "current",
           "function",
@@ -104,13 +111,6 @@
           "paginatedcollection#setcurrentpag",
           "set",
           "setcurrentpag"
-        ],
-        "PaginatedCollection.html#save": [
-          "collect",
-          "function",
-          "option",
-          "paginatedcollection#sav",
-          "save"
         ],
         "PaginatedCollection.html#update": [
           "collect",
@@ -184,10 +184,10 @@
           "class",
           "collect"
         ],
-        "Collection.html#uri": [
-          "collection#uri",
-          "member",
-          "uri"
+        "Collection.html#_uri": [
+          "_uri",
+          "collection#_uri",
+          "member"
         ],
         "Collection.html#sync": [
           "bound",
@@ -335,10 +335,29 @@
           "support",
           "valid"
         ],
-        "Model.html#uri": [
+        "Model.html#crossOrigin": [
+          "cross",
+          "crossorigin",
           "member",
-          "model#uri",
-          "uri"
+          "model#crossorigin",
+          "origin",
+          "properti"
+        ],
+        "Model.html#_uri": [
+          "_uri",
+          "member",
+          "model#_uri"
+        ],
+        "Model.html#sync": [
+          "bound",
+          "call",
+          "data",
+          "function",
+          "lt;async&gt",
+          "model",
+          "model#sync",
+          "rest",
+          "sync"
         ],
         "Model.html#fetch": [
           "fetch",
@@ -369,7 +388,7 @@
           "option"
         ]
       },
-      "length": 43
+      "length": 45
     },
     "tokenStore": {
       "root": {
@@ -523,6 +542,10 @@
                   "Collection.html#sync": {
                     "ref": "Collection.html#sync",
                     "tf": 8.333333333333332
+                  },
+                  "Model.html#sync": {
+                    "ref": "Model.html#sync",
+                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -747,6 +770,29 @@
                   }
                 }
               }
+            },
+            "o": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "Model.html#crossOrigin": {
+                            "ref": "Model.html#crossOrigin",
+                            "tf": 16.666666666666664
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "a": {
@@ -801,26 +847,18 @@
                                               "docs": {},
                                               "#": {
                                                 "docs": {},
-                                                "u": {
+                                                "_": {
                                                   "docs": {},
-                                                  "r": {
+                                                  "u": {
                                                     "docs": {},
-                                                    "i": {
-                                                      "docs": {
-                                                        "PaginatedCollection.html#uri": {
-                                                          "ref": "PaginatedCollection.html#uri",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "p": {
-                                                    "docs": {},
-                                                    "d": {
-                                                      "docs": {
-                                                        "PaginatedCollection.html#update": {
-                                                          "ref": "PaginatedCollection.html#update",
-                                                          "tf": 1150
+                                                    "r": {
+                                                      "docs": {},
+                                                      "i": {
+                                                        "docs": {
+                                                          "PaginatedCollection.html#_uri": {
+                                                            "ref": "PaginatedCollection.html#_uri",
+                                                            "tf": 1150
+                                                          }
                                                         }
                                                       }
                                                     }
@@ -909,6 +947,20 @@
                                                       "docs": {
                                                         "PaginatedCollection.html#save": {
                                                           "ref": "PaginatedCollection.html#save",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "u": {
+                                                  "docs": {},
+                                                  "p": {
+                                                    "docs": {},
+                                                    "d": {
+                                                      "docs": {
+                                                        "PaginatedCollection.html#update": {
+                                                          "ref": "PaginatedCollection.html#update",
                                                           "tf": 1150
                                                         }
                                                       }
@@ -1335,6 +1387,10 @@
                   "Model.html": {
                     "ref": "Model.html",
                     "tf": 8.333333333333332
+                  },
+                  "Model.html#sync": {
+                    "ref": "Model.html#sync",
+                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -1583,6 +1639,10 @@
                   "LocalStorageCollection.html#sync": {
                     "ref": "LocalStorageCollection.html#sync",
                     "tf": 766.6666666666666
+                  },
+                  "Model.html#sync": {
+                    "ref": "Model.html#sync",
+                    "tf": 714.2857142857143
                   }
                 }
               }
@@ -1912,26 +1972,18 @@
                             },
                             "#": {
                               "docs": {},
-                              "u": {
+                              "_": {
                                 "docs": {},
-                                "r": {
+                                "u": {
                                   "docs": {},
-                                  "i": {
-                                    "docs": {
-                                      "Collection.html#uri": {
-                                        "ref": "Collection.html#uri",
-                                        "tf": 1150
-                                      }
-                                    }
-                                  }
-                                },
-                                "p": {
-                                  "docs": {},
-                                  "d": {
-                                    "docs": {
-                                      "Collection.html#update": {
-                                        "ref": "Collection.html#update",
-                                        "tf": 1150
+                                  "r": {
+                                    "docs": {},
+                                    "i": {
+                                      "docs": {
+                                        "Collection.html#_uri": {
+                                          "ref": "Collection.html#_uri",
+                                          "tf": 1150
+                                        }
                                       }
                                     }
                                   }
@@ -1980,6 +2032,20 @@
                                             "tf": 1150
                                           }
                                         }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "u": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "d": {
+                                    "docs": {
+                                      "Collection.html#update": {
+                                        "ref": "Collection.html#update",
+                                        "tf": 1150
                                       }
                                     }
                                   }
@@ -2038,6 +2104,10 @@
                   "LocalStorageCollection.html#init": {
                     "ref": "LocalStorageCollection.html#init",
                     "tf": 8.333333333333332
+                  },
+                  "Model.html#sync": {
+                    "ref": "Model.html#sync",
+                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -2076,6 +2146,46 @@
                       "LocalStorageCollection.html#init": {
                         "ref": "LocalStorageCollection.html#init",
                         "tf": 8.333333333333332
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "s": {
+                  "docs": {
+                    "Model.html#crossOrigin": {
+                      "ref": "Model.html#crossOrigin",
+                      "tf": 16.666666666666664
+                    }
+                  },
+                  "o": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "g": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "n": {
+                              "docs": {
+                                "Model.html#crossOrigin": {
+                                  "ref": "Model.html#crossOrigin",
+                                  "tf": 750
+                                }
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -2150,6 +2260,10 @@
                                 "Collection.html#sync": {
                                   "ref": "Collection.html#sync",
                                   "tf": 20
+                                },
+                                "Model.html#sync": {
+                                  "ref": "Model.html#sync",
+                                  "tf": 50
                                 }
                               }
                             }
@@ -2469,6 +2583,31 @@
             }
           }
         },
+        "_": {
+          "docs": {},
+          "u": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "i": {
+                "docs": {
+                  "PaginatedCollection.html#_uri": {
+                    "ref": "PaginatedCollection.html#_uri",
+                    "tf": 750
+                  },
+                  "Collection.html#_uri": {
+                    "ref": "Collection.html#_uri",
+                    "tf": 750
+                  },
+                  "Model.html#_uri": {
+                    "ref": "Model.html#_uri",
+                    "tf": 750
+                  }
+                }
+              }
+            }
+          }
+        },
         "m": {
           "docs": {},
           "e": {
@@ -2481,12 +2620,12 @@
                   "docs": {},
                   "r": {
                     "docs": {
-                      "PaginatedCollection.html#uri": {
-                        "ref": "PaginatedCollection.html#uri",
+                      "PaginatedCollection.html#_uri": {
+                        "ref": "PaginatedCollection.html#_uri",
                         "tf": 110
                       },
-                      "Collection.html#uri": {
-                        "ref": "Collection.html#uri",
+                      "Collection.html#_uri": {
+                        "ref": "Collection.html#_uri",
                         "tf": 110
                       },
                       "LocalStorageCollection.html#key": {
@@ -2501,8 +2640,12 @@
                         "ref": "LocalStorageCollection.html#namespace",
                         "tf": 110
                       },
-                      "Model.html#uri": {
-                        "ref": "Model.html#uri",
+                      "Model.html#crossOrigin": {
+                        "ref": "Model.html#crossOrigin",
+                        "tf": 110
+                      },
+                      "Model.html#_uri": {
+                        "ref": "Model.html#_uri",
                         "tf": 110
                       }
                     }
@@ -2572,6 +2715,10 @@
                       "ref": "Model.html",
                       "tf": 1908.3333333333333
                     },
+                    "Model.html#sync": {
+                      "ref": "Model.html#sync",
+                      "tf": 7.142857142857142
+                    },
                     "Model.html#fetch": {
                       "ref": "Model.html#fetch",
                       "tf": 25
@@ -2591,25 +2738,83 @@
                   },
                   "#": {
                     "docs": {},
-                    "u": {
+                    "c": {
                       "docs": {},
                       "r": {
                         "docs": {},
-                        "i": {
-                          "docs": {
-                            "Model.html#uri": {
-                              "ref": "Model.html#uri",
-                              "tf": 1150
+                        "o": {
+                          "docs": {},
+                          "s": {
+                            "docs": {},
+                            "s": {
+                              "docs": {},
+                              "o": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "i": {
+                                    "docs": {},
+                                    "g": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "n": {
+                                          "docs": {
+                                            "Model.html#crossOrigin": {
+                                              "ref": "Model.html#crossOrigin",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "_": {
+                      "docs": {},
+                      "u": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "i": {
+                            "docs": {
+                              "Model.html#_uri": {
+                                "ref": "Model.html#_uri",
+                                "tf": 1150
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "s": {
+                      "docs": {},
+                      "y": {
+                        "docs": {},
+                        "n": {
+                          "docs": {},
+                          "c": {
+                            "docs": {
+                              "Model.html#sync": {
+                                "ref": "Model.html#sync",
+                                "tf": 1150
+                              }
                             }
                           }
                         }
                       },
-                      "p": {
+                      "a": {
                         "docs": {},
-                        "d": {
+                        "v": {
                           "docs": {
-                            "Model.html#update": {
-                              "ref": "Model.html#update",
+                            "Model.html#save": {
+                              "ref": "Model.html#save",
                               "tf": 1150
                             }
                           }
@@ -2636,14 +2841,14 @@
                         }
                       }
                     },
-                    "s": {
+                    "u": {
                       "docs": {},
-                      "a": {
+                      "p": {
                         "docs": {},
-                        "v": {
+                        "d": {
                           "docs": {
-                            "Model.html#save": {
-                              "ref": "Model.html#save",
+                            "Model.html#update": {
+                              "ref": "Model.html#update",
                               "tf": 1150
                             }
                           }
@@ -2705,65 +2910,6 @@
             }
           }
         },
-        "u": {
-          "docs": {},
-          "r": {
-            "docs": {},
-            "i": {
-              "docs": {
-                "PaginatedCollection.html#uri": {
-                  "ref": "PaginatedCollection.html#uri",
-                  "tf": 750
-                },
-                "Collection.html#uri": {
-                  "ref": "Collection.html#uri",
-                  "tf": 750
-                },
-                "Model.html#uri": {
-                  "ref": "Model.html#uri",
-                  "tf": 750
-                }
-              }
-            },
-            "l": {
-              "docs": {
-                "LocalStorageCollection.html#key": {
-                  "ref": "LocalStorageCollection.html#key",
-                  "tf": 6.25
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "PaginatedCollection.html#update": {
-                      "ref": "PaginatedCollection.html#update",
-                      "tf": 725
-                    },
-                    "Collection.html#update": {
-                      "ref": "Collection.html#update",
-                      "tf": 725
-                    },
-                    "LocalStorageCollection.html#update": {
-                      "ref": "LocalStorageCollection.html#update",
-                      "tf": 725
-                    },
-                    "Model.html#update": {
-                      "ref": "Model.html#update",
-                      "tf": 725
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
         "b": {
           "docs": {},
           "o": {
@@ -2781,6 +2927,10 @@
                     "Collection.html#sync": {
                       "ref": "Collection.html#sync",
                       "tf": 8.333333333333332
+                    },
+                    "Model.html#sync": {
+                      "ref": "Model.html#sync",
+                      "tf": 7.142857142857142
                     }
                   }
                 }
@@ -2904,12 +3054,12 @@
                             "ref": "PaginatedCollection.html#setPageSize",
                             "tf": 110
                           },
-                          "PaginatedCollection.html#setCurrentPage": {
-                            "ref": "PaginatedCollection.html#setCurrentPage",
-                            "tf": 110
-                          },
                           "PaginatedCollection.html#save": {
                             "ref": "PaginatedCollection.html#save",
+                            "tf": 110
+                          },
+                          "PaginatedCollection.html#setCurrentPage": {
+                            "ref": "PaginatedCollection.html#setCurrentPage",
                             "tf": 110
                           },
                           "PaginatedCollection.html#update": {
@@ -2994,6 +3144,10 @@
                           },
                           "LocalStorageCollection.html#sync": {
                             "ref": "LocalStorageCollection.html#sync",
+                            "tf": 110
+                          },
+                          "Model.html#sync": {
+                            "ref": "Model.html#sync",
                             "tf": 110
                           },
                           "Model.html#fetch": {
@@ -3197,6 +3351,69 @@
                 }
               }
             }
+          },
+          "r": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "Model.html#crossOrigin": {
+                        "ref": "Model.html#crossOrigin",
+                        "tf": 16.666666666666664
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "u": {
+          "docs": {},
+          "p": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "PaginatedCollection.html#update": {
+                      "ref": "PaginatedCollection.html#update",
+                      "tf": 725
+                    },
+                    "Collection.html#update": {
+                      "ref": "Collection.html#update",
+                      "tf": 725
+                    },
+                    "LocalStorageCollection.html#update": {
+                      "ref": "LocalStorageCollection.html#update",
+                      "tf": 725
+                    },
+                    "Model.html#update": {
+                      "ref": "Model.html#update",
+                      "tf": 725
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "l": {
+              "docs": {
+                "LocalStorageCollection.html#key": {
+                  "ref": "LocalStorageCollection.html#key",
+                  "tf": 6.25
+                }
+              }
+            }
           }
         },
         "t": {
@@ -3268,9 +3485,10 @@
           }
         }
       },
-      "length": 243
+      "length": 258
     },
     "corpusTokens": [
+      "_uri",
       "api",
       "augmented.j",
       "backbone.collection.fetch",
@@ -3280,13 +3498,15 @@
       "class",
       "client",
       "collect",
+      "collection#_uri",
       "collection#destroy",
       "collection#fetch",
       "collection#sav",
       "collection#sync",
       "collection#upd",
-      "collection#uri",
       "collection.fetch",
+      "cross",
+      "crossorigin",
       "current",
       "custom",
       "data",
@@ -3328,11 +3548,13 @@
       "member",
       "method",
       "model",
+      "model#_uri",
+      "model#crossorigin",
       "model#destroy",
       "model#fetch",
       "model#sav",
+      "model#sync",
       "model#upd",
-      "model#uri",
       "move",
       "name",
       "namespac",
@@ -3341,9 +3563,11 @@
       "nextpag",
       "number",
       "option",
+      "origin",
       "page",
       "pagin",
       "paginatedcollect",
+      "paginatedcollection#_uri",
       "paginatedcollection#destroy",
       "paginatedcollection#fetch",
       "paginatedcollection#firstpag",
@@ -3357,13 +3581,13 @@
       "paginatedcollection#setpages",
       "paginatedcollection#sync",
       "paginatedcollection#upd",
-      "paginatedcollection#uri",
       "pagination.paginationfactori",
       "paginationfactori",
       "persist",
       "present",
       "previou",
       "previouspag",
+      "properti",
       "readm",
       "refresh",
       "rest",
@@ -3385,7 +3609,6 @@
       "sync",
       "type",
       "updat",
-      "uri",
       "url",
       "valid",
       "wire"
@@ -3441,13 +3664,13 @@
       "description": "Paginated Collection Class - A Collection that handles pagination from client or server-side",
       "body": ""
     },
-    "PaginatedCollection.html#uri": {
-      "id": "PaginatedCollection.html#uri",
+    "PaginatedCollection.html#_uri": {
+      "id": "PaginatedCollection.html#_uri",
       "kind": "member",
-      "title": "uri",
-      "longname": "PaginatedCollection#uri",
-      "name": "uri",
-      "tags": "PaginatedCollection#uri uri",
+      "title": "_uri",
+      "longname": "PaginatedCollection#_uri",
+      "name": "_uri",
+      "tags": "PaginatedCollection#_uri _uri",
       "summary": "",
       "description": ""
     },
@@ -3471,16 +3694,6 @@
       "summary": "",
       "description": "Sets the number of items in a page"
     },
-    "PaginatedCollection.html#setCurrentPage": {
-      "id": "PaginatedCollection.html#setCurrentPage",
-      "kind": "function",
-      "title": "setCurrentPage( page )",
-      "longname": "PaginatedCollection#setCurrentPage",
-      "name": "setCurrentPage",
-      "tags": "PaginatedCollection#setCurrentPage setCurrentPage",
-      "summary": "",
-      "description": "Sets the current page"
-    },
     "PaginatedCollection.html#save": {
       "id": "PaginatedCollection.html#save",
       "kind": "function",
@@ -3490,6 +3703,16 @@
       "tags": "PaginatedCollection#save save",
       "summary": "",
       "description": "Save the collection"
+    },
+    "PaginatedCollection.html#setCurrentPage": {
+      "id": "PaginatedCollection.html#setCurrentPage",
+      "kind": "function",
+      "title": "setCurrentPage( page )",
+      "longname": "PaginatedCollection#setCurrentPage",
+      "name": "setCurrentPage",
+      "tags": "PaginatedCollection#setCurrentPage setCurrentPage",
+      "summary": "",
+      "description": "Sets the current page"
     },
     "PaginatedCollection.html#update": {
       "id": "PaginatedCollection.html#update",
@@ -3592,13 +3815,13 @@
       "description": "Collection Class",
       "body": ""
     },
-    "Collection.html#uri": {
-      "id": "Collection.html#uri",
+    "Collection.html#_uri": {
+      "id": "Collection.html#_uri",
       "kind": "member",
-      "title": "uri",
-      "longname": "Collection#uri",
-      "name": "uri",
-      "tags": "Collection#uri uri",
+      "title": "_uri",
+      "longname": "Collection#_uri",
+      "name": "_uri",
+      "tags": "Collection#_uri _uri",
       "summary": "",
       "description": ""
     },
@@ -3785,15 +4008,35 @@
       "description": "Model Supports: REST Validation and Schemas Security",
       "body": ""
     },
-    "Model.html#uri": {
-      "id": "Model.html#uri",
+    "Model.html#crossOrigin": {
+      "id": "Model.html#crossOrigin",
       "kind": "member",
-      "title": "uri",
-      "longname": "Model#uri",
-      "name": "uri",
-      "tags": "Model#uri uri",
+      "title": "crossOrigin",
+      "longname": "Model#crossOrigin",
+      "name": "crossOrigin",
+      "tags": "Model#crossOrigin crossOrigin",
+      "summary": "",
+      "description": "Cross Origin property"
+    },
+    "Model.html#_uri": {
+      "id": "Model.html#_uri",
+      "kind": "member",
+      "title": "_uri",
+      "longname": "Model#_uri",
+      "name": "_uri",
+      "tags": "Model#_uri _uri",
       "summary": "",
       "description": ""
+    },
+    "Model.html#sync": {
+      "id": "Model.html#sync",
+      "kind": "function",
+      "title": "&lt;async&gt; sync()",
+      "longname": "Model#sync",
+      "name": "sync",
+      "tags": "Model#sync sync",
+      "summary": "",
+      "description": "sync - Sync model data to bound REST call"
     },
     "Model.html#fetch": {
       "id": "Model.html#fetch",

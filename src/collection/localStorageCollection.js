@@ -1,5 +1,6 @@
 import { AbstractCollection } from "next-core-model";
 import { LocalStorageFactory } from "presentation-storage";
+//import { METHOD_MAP } from "presentation-request";
 
 const DEFAULT_NAMESPACE = "augmented.localstorage.collection";
 const DEFAULT_KEY = `${DEFAULT_NAMESPACE}.key`;
@@ -9,11 +10,7 @@ const DEFAULT_KEY = `${DEFAULT_NAMESPACE}.key`;
  * @extends AbstractCollection
  */
 class LocalStorageCollection extends AbstractCollection {
-  constructor(models, options) {
-    if (!options) {
-      options = {};
-    }
-
+  constructor(models, options = {}) {
     super(models, options);
 
     if (options.persist) {
@@ -33,7 +30,11 @@ class LocalStorageCollection extends AbstractCollection {
     } else {
       this._namespace = DEFAULT_NAMESPACE;
     }
-
+    /**
+     * Storage for the collection
+     * @property {string} _storage The storage used for the collection
+     * @private
+     */
     this._storage = LocalStorageFactory.getStorage(this._persist, this._namespace);
   };
 
@@ -60,12 +61,6 @@ class LocalStorageCollection extends AbstractCollection {
    get namespace() {
      return this._namespace;
    };
-
-  /**
-   * Storage for the collection
-   * @property {string} storage The storage used for the collection
-   * @private
-   */
 
   /**
    * Initialize the model with needed wireing
@@ -109,7 +104,7 @@ class LocalStorageCollection extends AbstractCollection {
   /**
    * Sync method for Collection
    */
-  sync(method, model, options = {}) {
+  sync(method = "READ", model, options = {}) {
     let j = {};
     try {
       if (method === "create" || method === "update") {

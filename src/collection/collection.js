@@ -9,6 +9,9 @@ class Collection extends AbstractCollection {
   constructor(models, options = {}) {
     super(models, options);
 
+    /**
+     * @property {string} uri The uri for the datasource (if applicable)
+     */
     this._uri = null;
 
     if (options && options.uri) {
@@ -16,9 +19,6 @@ class Collection extends AbstractCollection {
     }
   };
 
-  /**
-    * @property {string} uri The uri for the datasource (if applicable)
-    */
   get uri() {
     return this._uri;
   };
@@ -48,13 +48,7 @@ class Collection extends AbstractCollection {
       };
     }
 
-    if (this.mock) {
-      options.mock = this.mock;
-    }
-
-    const fetchAsyncA = await sync(method, model, options);
-    //console.debug("in collection " + fetchAsyncA);
-    return fetchAsyncA;
+    return await sync(method, model, options);
   };
 
   /**

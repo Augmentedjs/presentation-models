@@ -14,17 +14,21 @@ class Model extends AbstractModel {
   constructor(attributes, options, ...args) {
     super(attributes, options, args);
     this.mock = false;
+
+    /**
+     * Cross Origin property
+     * @property {boolean} crossOrigin Cross Origin property
+     */
     this.crossOrigin = false;
+    /**
+     * @property {string} uri The uri for the datasource (if applicable)
+     */
     this._uri = null;
 
     if (options && options.uri) {
       this._uri = options.uri;
     }
   };
-
-  /**
-    * @property {string} uri The uri for the datasource (if applicable)
-    */
 
   get uri() {
     return this._uri;
@@ -35,23 +39,9 @@ class Model extends AbstractModel {
   };
 
   /**
-   * mock property
-   * @property {boolean} mock Sets mock mode in the model
-   */
-
-  /**
-   * Cross Origin property
-   * @property {boolean} crossOrigin Cross Origin property
-   */
-
-  /**
    * sync - Sync model data to bound REST call
-   * @method sync
    */
-  async sync(method, model, options) {
-    if (!options) {
-      options = {};
-    }
+  async sync(method = "READ", model, options = {}) {
     if (this._uri) {
       options.uri = this._uri;
     }
@@ -65,12 +55,7 @@ class Model extends AbstractModel {
       };
     }
 
-    if (this.mock) {
-      options.mock = this.mock;
-    }
-
-    const fetchAsyncA = await sync(method, model, options);
-    return fetchAsyncA;
+    return await sync(method, model, options);
   };
 
   /**

@@ -10,83 +10,80 @@ Augmented.js Presentation Models & Collections Module
 
 -   [Model](#model)
     -   [Parameters](#parameters)
-    -   [uri](#uri)
+    -   [crossOrigin](#crossorigin)
         -   [Properties](#properties)
+    -   [\_uri](#_uri)
+        -   [Properties](#properties-1)
     -   [sync](#sync)
         -   [Parameters](#parameters-1)
-        -   [Properties](#properties-1)
-    -   [sync](#sync-1)
-        -   [Parameters](#parameters-2)
-        -   [Properties](#properties-2)
     -   [fetch](#fetch)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-2)
     -   [save](#save)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-3)
     -   [update](#update)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-4)
     -   [destroy](#destroy)
-        -   [Parameters](#parameters-6)
--   [sync](#sync-2)
+        -   [Parameters](#parameters-5)
 -   [Collection](#collection)
-    -   [Parameters](#parameters-7)
-    -   [uri](#uri-1)
-        -   [Properties](#properties-3)
-    -   [sync](#sync-3)
-        -   [Parameters](#parameters-8)
+    -   [Parameters](#parameters-6)
+    -   [\_uri](#_uri-1)
+        -   [Properties](#properties-2)
+    -   [sync](#sync-1)
+        -   [Parameters](#parameters-7)
     -   [fetch](#fetch-1)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-8)
     -   [save](#save-1)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-9)
     -   [update](#update-1)
-        -   [Parameters](#parameters-11)
+        -   [Parameters](#parameters-10)
     -   [destroy](#destroy-1)
-        -   [Parameters](#parameters-12)
+        -   [Parameters](#parameters-11)
 -   [LocalStorageCollection](#localstoragecollection)
-    -   [Parameters](#parameters-13)
+    -   [Parameters](#parameters-12)
     -   [key](#key)
-        -   [Properties](#properties-4)
+        -   [Properties](#properties-3)
     -   [persist](#persist)
-        -   [Properties](#properties-5)
+        -   [Properties](#properties-4)
     -   [namespace](#namespace)
-        -   [Properties](#properties-6)
+        -   [Properties](#properties-5)
     -   [initialize](#initialize)
-        -   [Parameters](#parameters-14)
+        -   [Parameters](#parameters-13)
     -   [init](#init)
-        -   [Parameters](#parameters-15)
+        -   [Parameters](#parameters-14)
     -   [fetch](#fetch-2)
-        -   [Parameters](#parameters-16)
+        -   [Parameters](#parameters-15)
     -   [save](#save-2)
-        -   [Parameters](#parameters-17)
+        -   [Parameters](#parameters-16)
     -   [update](#update-2)
-        -   [Parameters](#parameters-18)
+        -   [Parameters](#parameters-17)
     -   [destroy](#destroy-2)
+        -   [Parameters](#parameters-18)
+    -   [sync](#sync-2)
         -   [Parameters](#parameters-19)
-    -   [sync](#sync-4)
-        -   [Parameters](#parameters-20)
 -   [PaginatedCollection](#paginatedcollection)
-    -   [Parameters](#parameters-21)
+    -   [Parameters](#parameters-20)
     -   [setPageSize](#setpagesize)
-        -   [Parameters](#parameters-22)
+        -   [Parameters](#parameters-21)
     -   [setPageSize](#setpagesize-1)
-        -   [Parameters](#parameters-23)
+        -   [Parameters](#parameters-22)
     -   [setPageSize](#setpagesize-2)
-        -   [Parameters](#parameters-24)
+        -   [Parameters](#parameters-23)
     -   [setCurrentPage](#setcurrentpage)
-        -   [Parameters](#parameters-25)
+        -   [Parameters](#parameters-24)
     -   [fetch](#fetch-3)
-        -   [Parameters](#parameters-26)
+        -   [Parameters](#parameters-25)
     -   [nextPage](#nextpage)
     -   [previousPage](#previouspage)
     -   [goToPage](#gotopage)
-        -   [Parameters](#parameters-27)
+        -   [Parameters](#parameters-26)
     -   [firstPage](#firstpage)
     -   [lastPage](#lastpage)
     -   [refresh](#refresh)
 -   [PaginationFactory](#paginationfactory)
 -   [PAGINATION_API_TYPE](#pagination_api_type)
-    -   [Properties](#properties-7)
+    -   [Properties](#properties-6)
 -   [getPaginatedCollection](#getpaginatedcollection)
-    -   [Parameters](#parameters-28)
+    -   [Parameters](#parameters-27)
 
 ## Model
 
@@ -106,7 +103,15 @@ Supports: <ul>
 -   `options`  
 -   `args` **...any** 
 
-### uri
+### crossOrigin
+
+Cross Origin property
+
+#### Properties
+
+-   `crossOrigin` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** Cross Origin property
+
+### \_uri
 
 #### Properties
 
@@ -114,31 +119,13 @@ Supports: <ul>
 
 ### sync
 
-mock property
+sync - Sync model data to bound REST call
 
 #### Parameters
 
--   `method`  
+-   `method`   (optional, default `"READ"`)
 -   `model`  
--   `options`  
-
-#### Properties
-
--   `mock` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** Sets mock mode in the model
-
-### sync
-
-Cross Origin property
-
-#### Parameters
-
--   `method`  
--   `model`  
--   `options`  
-
-#### Properties
-
--   `crossOrigin` **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** Cross Origin property
+-   `options`   (optional, default `{}`)
 
 ### fetch
 
@@ -172,10 +159,6 @@ Destroy the model
 
 -   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Any options to pass
 
-## sync
-
-sync - Sync model data to bound REST call
-
 ## Collection
 
 **Extends AbstractCollection**
@@ -187,7 +170,7 @@ Collection Class
 -   `models`  
 -   `options`   (optional, default `{}`)
 
-### uri
+### \_uri
 
 #### Properties
 
@@ -246,7 +229,7 @@ A local storage-based Collection
 ### Parameters
 
 -   `models`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### key
 
@@ -326,7 +309,7 @@ Sync method for Collection
 
 #### Parameters
 
--   `method`  
+-   `method`   (optional, default `"READ"`)
 -   `model`  
 -   `options`   (optional, default `{}`)
 
