@@ -106,18 +106,5 @@ describe("Given a subclassed Model", () => {
       expect(model._attributes).to.deep.equal(data1);
       expect(model2._attributes).to.deep.equal(data2);
     });
-
-    it("does not leak data to another model on contruction", async () => {
-      model = new Character({ "data": "123", "x": "x", "y": 2 });
-      const model2 = new Character({ "data" : "xyz", "x": "y" });
-      const data1 = await model.toJSON();
-      const data2 = await model2.toJSON();
-      expect(data1).to.deep.equal({ "data": "123", "x": "x", "y": 2 });
-      expect(data2).to.deep.equal({ "data" : "xyz", "x": "y" });
-      expect(data1).to.not.equal(data2);
-      expect(model._attributes).to.not.equal(model2._attributes);
-      expect(model._attributes).to.deep.equal(data1);
-      expect(model2._attributes).to.deep.equal(data2);
-    });
   });
 });

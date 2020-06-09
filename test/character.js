@@ -219,15 +219,13 @@ class Character extends Models.Model {
     if(!options.uri) {
       options.uri = `/characters${(data.name) ? "/" + data.name : ""}`;
     }
-    let key, c = DEFAULT;
-    for (key in c) {
+		const copy = Object.create(DEFAULT);
+    for (const key in copy) {
       if (data[key]) {
-        c[key] = data[key];
+        copy[key] = data[key];
       }
     }
-    console.debug("model created", data, options);
-    super(c, options);
-    console.debug("model after super", this._attributes);
+    super(copy, options);
   };
 
   static get URI() {
