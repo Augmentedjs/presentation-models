@@ -25,13 +25,6 @@ describe("Given an Abstract Model", () => {
     expect(model.crossOrigin).to.be.true;
   });
 
-  xit("with mock can return something", () => {
-    model.mock = true;
-    model.url = "/info";
-    model.fetch({"success": () => { model.set("x", "x") }});
-    expect(model.get("x")).to.equal("x");
-  });
-
   it("can reset with data", () => {
     model.set({ "y": "y" });
     model.reset({ "x": "x" });
@@ -62,4 +55,38 @@ describe("Given an Abstract Model", () => {
 			expect(model.supportsValidation()).to.be.true;
 		});
 	});
+
+  describe("Given a new model", async () => {
+    it("can set with data on construction", async () => {
+      const model = new Models.Model( { "data" : "xyz" });
+      const data = await model.get("data");
+      expect(data).to.equal("xyz");
+    });
+
+    it("does not leak data to another model", async () => {
+      await model.set({ "data": "123", "x": "x", "y": 2 });
+      const model2 = new Models.Model({ "data" : "xyz", "x": "y" });
+      const data1 = await model.toJSON();
+      const data2 = await model2.toJSON();
+      expect(data1).to.deep.equal({ "data": "123", "x": "x", "y": 2 });
+      expect(data2).to.deep.equal({ "data" : "xyz", "x": "y" });
+      expect(data1).to.not.equal(data2);
+      expect(model._attributes).to.not.equal(model2._attributes);
+      expect(model._attributes).to.deep.equal(data1);
+      expect(model2._attributes).to.deep.equal(data2);
+    });
+
+    it("does not leak data to another model on contruction", async () => {
+      model = new Models.Model({ "data": "123", "x": "x", "y": 2 });
+      const model2 = new Models.Model({ "data" : "xyz", "x": "y" });
+      const data1 = await model.toJSON();
+      const data2 = await model2.toJSON();
+      expect(data1).to.deep.equal({ "data": "123", "x": "x", "y": 2 });
+      expect(data2).to.deep.equal({ "data" : "xyz", "x": "y" });
+      expect(data1).to.not.equal(data2);
+      expect(model._attributes).to.not.equal(model2._attributes);
+      expect(model._attributes).to.deep.equal(data1);
+      expect(model2._attributes).to.deep.equal(data2);
+    });
+  });
 });
