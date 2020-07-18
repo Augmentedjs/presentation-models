@@ -11,7 +11,7 @@ import { sync } from "presentation-request";
  * @extends AbstractModel
  */
 class Model extends AbstractModel {
-  constructor(attributes, options, ...args) {
+  constructor(attributes, options = {}, ...args) {
     super(attributes, options, args);
     this.mock = false;
 

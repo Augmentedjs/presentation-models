@@ -1,6 +1,6 @@
 {
   "name": "presentation-models",
-  "version": "3.1.5",
+  "version": "3.1.6",
   "description": "The Augmented.js Next - Presentation Dom Module.",
   "main": "dist/presentation-models.js",
   "scripts": {
@@ -25,16 +25,16 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
+    "@babel/register": "^7.10.5",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "clean-webpack-plugin": "^3.0.0",
     "documentation": "^13.0.2",
     "foodoc": "0.0.9",
     "jsdoc": "^3.6.4",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.3.0",
     "mocha": "^8.0.1",
     "mocha-jsdom": "^2.0.0",
     "node-localstorage": "^2.1.6",
@@ -42,7 +42,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "next-core-model": "^3.1.4",
+    "next-core-model": "^3.1.5",
     "presentation-request": "^3.0.3",
     "presentation-storage": "^2.5.7"
   },

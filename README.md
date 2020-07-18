@@ -100,7 +100,7 @@ Supports: <ul>
 ### Parameters
 
 -   `attributes`  
--   `options`  
+-   `options`   (optional, default `{}`)
 -   `args` **...any** 
 
 ### crossOrigin
@@ -322,7 +322,7 @@ Paginated Collection Class - A Collection that handles pagination from client or
 ### Parameters
 
 -   `models`  
--   `options`  
+-   `options`   (optional, default `{}`)
 
 ### setPageSize
 

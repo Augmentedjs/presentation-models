@@ -5,7 +5,7 @@ import Collection from "./collection.js";
  * @extends Collection
  */
 class PaginatedCollection extends Collection {
-  constructor(models, options) {
+  constructor(models, options = {}) {
     super(models, options);
     if (options && options.paginationConfiguration) {
       this.paginationConfiguration = options.paginationConfiguration;
